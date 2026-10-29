@@ -1,0 +1,66 @@
+import type { Lang } from "./profile";
+
+// "내 방식" 키오스크 화면의 고정 문구. 메뉴 설명은 AI가 프로필에 맞춰 만든다.
+const T = {
+  greet: {
+    ko: "안녕하세요. 천천히 하셔도 괜찮아요.",
+    en: "Hello. Take your time.",
+    vi: "Xin chào. Bạn cứ từ từ nhé.",
+    zh: "您好，请慢慢来。",
+    ja: "こんにちは。ゆっくりで大丈夫です。",
+  },
+  chooseKind: {
+    ko: "무엇을 드시겠어요?",
+    en: "What would you like?",
+    vi: "Bạn muốn dùng gì?",
+    zh: "您想要点什么？",
+    ja: "何になさいますか？",
+  },
+  coffee: { ko: "커피", en: "Coffee", vi: "Cà phê", zh: "咖啡", ja: "コーヒー" },
+  noncoffee: { ko: "커피 아닌 음료", en: "Drinks (no coffee)", vi: "Đồ uống (không cà phê)", zh: "不含咖啡的饮料", ja: "コーヒー以外の飲み物" },
+  tea: { ko: "차", en: "Tea", vi: "Trà", zh: "茶", ja: "お茶" },
+  dessert: { ko: "빵과 케이크", en: "Bread & cake", vi: "Bánh mì & bánh ngọt", zh: "面包和蛋糕", ja: "パンとケーキ" },
+  chooseItem: { ko: "하나를 골라 주세요.", en: "Please pick one.", vi: "Hãy chọn một món.", zh: "请选择一个。", ja: "一つ選んでください。" },
+  tempQ: { ko: "따뜻하게 드릴까요, 차갑게 드릴까요?", en: "Hot or cold?", vi: "Nóng hay lạnh?", zh: "要热的还是冰的？", ja: "温かいのと冷たいの、どちらにしますか？" },
+  hot: { ko: "따뜻하게", en: "Hot", vi: "Nóng", zh: "热的", ja: "温かい" },
+  ice: { ko: "차갑게", en: "Cold (ice)", vi: "Lạnh (đá)", zh: "冰的", ja: "冷たい" },
+  sizeQ: { ko: "크기는 어떻게 할까요?", en: "Which size?", vi: "Cỡ nào?", zh: "要什么杯型？", ja: "サイズはどうしますか？" },
+  regular: { ko: "보통", en: "Regular", vi: "Vừa", zh: "中杯", ja: "ふつう" },
+  large: { ko: "크게", en: "Large", vi: "Lớn", zh: "大杯", ja: "大きい" },
+  more500: { ko: "500원 더", en: "+500 won", vi: "thêm 500 won", zh: "加500韩元", ja: "500ウォン追加" },
+  qtyQ: { ko: "몇 개 드릴까요?", en: "How many?", vi: "Bao nhiêu?", zh: "要几个？", ja: "いくつにしますか？" },
+  ok: { ko: "이대로 담기", en: "Add to order", vi: "Thêm vào đơn", zh: "加入订单", ja: "注文に入れる" },
+  added: { ko: "담았어요.", en: "Added.", vi: "Đã thêm.", zh: "已加入。", ja: "入れました。" },
+  moreQ: { ko: "더 주문하실래요?", en: "Anything else?", vi: "Bạn muốn gọi thêm không?", zh: "还要别的吗？", ja: "ほかにもご注文はありますか？" },
+  moreYes: { ko: "더 고를래요", en: "Add more", vi: "Gọi thêm", zh: "再点一些", ja: "もっと選ぶ" },
+  moreNo: { ko: "다 골랐어요", en: "That's all", vi: "Đủ rồi", zh: "就这些", ja: "これで全部" },
+  placeQ: { ko: "여기서 드세요, 가져가세요?", en: "For here or to go?", vi: "Dùng tại đây hay mang đi?", zh: "在这里吃还是带走？", ja: "店内でお召し上がりですか、お持ち帰りですか？" },
+  here: { ko: "여기서 먹어요", en: "For here", vi: "Dùng tại đây", zh: "在这里吃", ja: "店内で" },
+  togo: { ko: "가져가요", en: "To go", vi: "Mang đi", zh: "带走", ja: "持ち帰り" },
+  confirmQ: { ko: "주문한 것이 맞는지 봐 주세요.", en: "Please check your order.", vi: "Vui lòng kiểm tra đơn hàng.", zh: "请确认您的订单。", ja: "ご注文を確認してください。" },
+  total: { ko: "모두", en: "Total", vi: "Tổng", zh: "合计", ja: "合計" },
+  pay: { ko: "맞아요, 결제할게요", en: "Yes, pay now", vi: "Đúng, thanh toán", zh: "没错，付款", ja: "はい、支払います" },
+  fix: { ko: "고칠래요", en: "Change", vi: "Sửa lại", zh: "修改", ja: "直す" },
+  insertCard: { ko: "카드를 화면 아래 투입구에 꽂아 주세요.", en: "Insert your card into the slot below the screen.", vi: "Hãy cắm thẻ vào khe bên dưới màn hình.", zh: "请把卡插入屏幕下方的插槽。", ja: "画面の下の差込口にカードを入れてください。" },
+  cardDone: { ko: "카드를 꽂았어요", en: "Card inserted", vi: "Đã cắm thẻ", zh: "已插卡", ja: "カードを入れました" },
+  done: { ko: "주문이 끝났어요. 이 번호를 부르면 받아 가세요.", en: "Your order is done. Pick it up when this number is called.", vi: "Đã đặt xong. Hãy nhận đồ khi số này được gọi.", zh: "点单完成。叫到这个号码时请来取。", ja: "注文が終わりました。この番号が呼ばれたら受け取ってください。" },
+  orderNo: { ko: "주문 번호", en: "Order no.", vi: "Số đơn", zh: "订单号", ja: "注文番号" },
+  back: { ko: "뒤로", en: "Back", vi: "Quay lại", zh: "返回", ja: "戻る" },
+  home: { ko: "처음으로", en: "Start over", vi: "Bắt đầu lại", zh: "重新开始", ja: "最初から" },
+  speak: { ko: "말로 주문하기", en: "Order by voice", vi: "Gọi món bằng giọng nói", zh: "语音点单", ja: "声で注文" },
+  listening: { ko: "듣고 있어요. 드실 것을 말씀해 주세요.", en: "Listening. Say what you'd like.", vi: "Đang nghe. Hãy nói món bạn muốn.", zh: "正在听，请说出您想要的。", ja: "聞いています。ご注文をどうぞ。" },
+  typeHere: { ko: "여기에 글로 써도 돼요", en: "Or type here", vi: "Hoặc gõ ở đây", zh: "也可以在这里输入", ja: "ここに入力してもいいです" },
+  send: { ko: "보내기", en: "Send", vi: "Gửi", zh: "发送", ja: "送る" },
+  contains: { ko: "피해야 할 재료가 들어 있어요", en: "Contains something you avoid", vi: "Có thành phần bạn cần tránh", zh: "含有您需要避免的成分", ja: "避けたい材料が入っています" },
+  cart: { ko: "담은 것", en: "Your order", vi: "Món đã chọn", zh: "已选", ja: "注文内容" },
+  remove: { ko: "빼기", en: "Remove", vi: "Bỏ", zh: "删除", ja: "取り消す" },
+  cup: { ko: "잔", en: "", vi: "", zh: "杯", ja: "杯" },
+  piece: { ko: "개", en: "", vi: "", zh: "个", ja: "個" },
+  thinking: { ko: "알아듣는 중이에요...", en: "Understanding...", vi: "Đang hiểu...", zh: "正在理解...", ja: "理解しています..." },
+  repeat: { ko: "다시 듣기", en: "Listen again", vi: "Nghe lại", zh: "再听一遍", ja: "もう一度聞く" },
+} as const;
+
+export type Key = keyof typeof T;
+export const t = (k: Key, lg: Lang) => T[k][lg] || T[k].ko;
+
+export const SPEECH_LANG: Record<Lang, string> = { ko: "ko-KR", en: "en-US", vi: "vi-VN", zh: "zh-CN", ja: "ja-JP" };

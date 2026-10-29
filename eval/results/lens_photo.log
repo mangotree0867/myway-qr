@@ -1,0 +1,12 @@
+........................
+ {
+  set: 'photo',
+  provider: 'anthropic',
+  model: 'claude-sonnet-5-5',
+  n: 24,
+  boxHit: 1,
+  labelAcc: 1,
+  errors: 0,
+  avgMs: 3776,
+  at: '2026-10-27T12:05:15.427Z'
+}

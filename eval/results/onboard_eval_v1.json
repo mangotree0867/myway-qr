@@ -1,0 +1,446 @@
+{
+  "summary": {
+    "n": 20,
+    "acc": 0.8,
+    "at": "2026-10-27T12:18:20.206Z"
+  },
+  "rows": [
+    {
+      "u": "눈이 침침해서 글씨가 안 보여요",
+      "expect": {
+        "fs": 3
+      },
+      "got": {
+        "fs": 3,
+        "hc": true,
+        "ez": 1,
+        "vo": true,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": []
+      },
+      "good": true,
+      "summary": "글씨를 아주 크게 하고, 검은 바탕에 노란 글씨로 잘 보이게 바꿨어요. 음성으로도 읽어드리고, 천천히 하실 수 있도록 시간 제한은 없앴어요.",
+      "source": "ai"
+    },
+    {
+      "u": "눈이 침침하고 영어로 된 메뉴는 무슨 뜻인지 모르겠어요",
+      "expect": {
+        "fs": 3,
+        "ez": 2,
+        "lg": "ko"
+      },
+      "got": {
+        "fs": 2,
+        "hc": true,
+        "ez": 1,
+        "vo": true,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": []
+      },
+      "good": false,
+      "summary": "글씨를 크게 하고 검은 바탕에 노란 글씨로 바꿔서 잘 보이게 했어요. 메뉴는 영어 대신 쉬운 한국어로 보여드리고, 소리로도 읽어드릴게요.",
+      "source": "ai"
+    },
+    {
+      "u": "시각장애가 있어서 화면이 거의 안 보여요",
+      "expect": {
+        "hc": true,
+        "vi": true,
+        "vo": true
+      },
+      "got": {
+        "fs": 3,
+        "hc": true,
+        "ez": 1,
+        "vo": true,
+        "vi": true,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": []
+      },
+      "good": true,
+      "summary": "글씨를 아주 크게 하고, 검은 바탕에 노란 글씨로 바꿨어요. 화면을 소리로 읽어드리고, 말로 주문하는 방법을 먼저 안내해 드릴게요.",
+      "source": "ai"
+    },
+    {
+      "u": "휠체어를 타서 위쪽 버튼에 손이 안 닿아요",
+      "expect": {
+        "lo": true
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 1,
+        "vo": true,
+        "vi": false,
+        "lo": true,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": []
+      },
+      "good": true,
+      "summary": "휠체어를 타고 계셔서 버튼을 화면 아래쪽에 두도록 설정했습니다. 글씨는 크게, 쉬운 말로, 시간 제한 없이 이용하실 수 있습니다.",
+      "source": "ai"
+    },
+    {
+      "u": "키가 작아서 화면 위가 안 닿아요",
+      "expect": {
+        "lo": true
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 1,
+        "vo": true,
+        "vi": false,
+        "lo": true,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": []
+      },
+      "good": true,
+      "summary": "키가 작아서 화면 위쪽이 닿지 않으시는 점을 고려해, 버튼을 화면 아래쪽에 배치했습니다. 글씨는 크게, 말은 쉽게 바꾸고 천천히 진행되도록 설정했어요.",
+      "source": "ai"
+    },
+    {
+      "u": "귀가 잘 안 들려요",
+      "expect": {
+        "vo": false
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 1,
+        "vo": false,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": []
+      },
+      "good": true,
+      "summary": "귀가 잘 안 들리시는 점을 고려해 소리 안내는 끄고, 글씨는 크게 보이도록 설정했습니다. 화면의 글자와 안내를 보면서 천천히 주문하실 수 있습니다.",
+      "source": "ai"
+    },
+    {
+      "u": "청각장애인이에요",
+      "expect": {
+        "vo": false
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 1,
+        "vo": false,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": []
+      },
+      "good": true,
+      "summary": "청각장애가 있으시군요. 소리 안내는 끄고, 글씨를 크게 하고 쉬운 말로 화면에 안내하도록 설정했어요. 시간 제한 없이 천천히 주문하실 수 있습니다.",
+      "source": "ai"
+    },
+    {
+      "u": "손이 떨려서 작은 버튼을 누르기 어려워요",
+      "expect": {
+        "vi": true
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 1,
+        "vo": true,
+        "vi": false,
+        "lo": true,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": []
+      },
+      "good": false,
+      "summary": "버튼을 화면 아래쪽에 배치하고 글씨를 크게 바꿨습니다. 시간 제한도 없애서 천천히 누르실 수 있습니다.",
+      "source": "ai"
+    },
+    {
+      "u": "어려운 말이 나오면 헷갈려요",
+      "expect": {
+        "ez": 2
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 2,
+        "vo": true,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": []
+      },
+      "good": true,
+      "summary": "어려운 말이 나오면 헷갈리시는 것 같아서, 아주 쉬운 말과 그림으로 안내되는 화면으로 설정했습니다. 글씨는 크게, 읽어주는 소리도 켜 두었고 시간 제한 없이 천천히 하실 수 있습니다.",
+      "source": "ai"
+    },
+    {
+      "u": "천천히 해야 해요. 시간이 지나면 처음으로 가 버려서 싫어요",
+      "expect": {
+        "nt": true
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 1,
+        "vo": true,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": []
+      },
+      "good": true,
+      "summary": "시간 제한을 없애서 주문하다가 처음 화면으로 돌아가지 않게 했어요. 글씨는 크게, 말은 쉽게 바꾸고 소리로도 안내해 드려요.",
+      "source": "ai"
+    },
+    {
+      "u": "우유를 마시면 배가 아파요",
+      "expect": {
+        "av": [
+          "milk"
+        ]
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 1,
+        "vo": true,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": [
+          "milk"
+        ]
+      },
+      "good": true,
+      "summary": "우유를 마시면 배가 아프시다고 해서, 우유가 들어간 메뉴는 고르지 않도록 설정했어요. 글씨는 크게, 말은 쉽게 보이고 소리로도 읽어드려요.",
+      "source": "ai"
+    },
+    {
+      "u": "땅콩 알레르기가 있어요",
+      "expect": {
+        "av": [
+          "nuts"
+        ]
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 1,
+        "vo": true,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": [
+          "nuts"
+        ]
+      },
+      "good": true,
+      "summary": "땅콩 알레르기가 있으시니 땅콩이 들어간 메뉴는 피하도록 설정했어요. 글씨는 크게, 음성 안내와 넉넉한 시간도 함께 켜 두었어요.",
+      "source": "ai"
+    },
+    {
+      "u": "임신 중이라 카페인을 피해야 해요",
+      "expect": {
+        "av": [
+          "caffeine"
+        ]
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 1,
+        "vo": true,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": [
+          "caffeine"
+        ]
+      },
+      "good": true,
+      "summary": "임신 중이시니 카페인이 들어간 음료와 메뉴는 피하실 수 있도록 설정했어요. 글씨는 크게, 쉬운 말로 천천히 안내되도록 맞췄습니다.",
+      "source": "ai"
+    },
+    {
+      "u": "I am from Vietnam and Korean is hard",
+      "expect": {
+        "lg": "vi"
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 2,
+        "vo": true,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "vi",
+        "av": []
+      },
+      "good": true,
+      "summary": "Tôi đã chọn chế độ dễ nhất: chữ cỡ lớn, lời nói và hình ảnh rất dễ hiểu, và có đọc to bằng tiếng Việt. Màn hình cũng sẽ không tự hết giờ, để bạn có thời gian làm chậm rãi.",
+      "source": "ai"
+    },
+    {
+      "u": "저는 베트남 사람이에요. 한국어가 어려워요",
+      "expect": {
+        "lg": "vi"
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 1,
+        "vo": true,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "vi",
+        "av": []
+      },
+      "good": true,
+      "summary": "Bạn đã chọn tiếng Việt và chế độ nói dễ hiểu hơn. Màn hình chữ vừa to, máy sẽ đọc to cho bạn nghe và không giới hạn thời gian.",
+      "source": "ai"
+    },
+    {
+      "u": "I can't read Korean",
+      "expect": {
+        "lg": "en"
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 2,
+        "vo": true,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": []
+      },
+      "good": false,
+      "summary": "한국어를 잘 읽지 못하신다고 하셔서, 그림과 아주 쉬운 말로 된 화면으로 설정했습니다. 소리로 안내를 읽어 드리고 시간 제한은 없앴습니다.",
+      "source": "ai"
+    },
+    {
+      "u": "我是中国人，看不懂韩语",
+      "expect": {
+        "lg": "zh"
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 1,
+        "vo": true,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "zh",
+        "av": []
+      },
+      "good": true,
+      "summary": "您说看不懂韩语，所以我把键盘语言换成了中文。字体大小、语音朗读和不限时间等设置也都已经开好。",
+      "source": "ai"
+    },
+    {
+      "u": "日本人です。韓国語が読めません",
+      "expect": {
+        "lg": "ja"
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 1,
+        "vo": true,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ja",
+        "av": []
+      },
+      "good": true,
+      "summary": "日本語の画面に変更しました。文字は少し大きめで、読み上げ機能もオンになっています。ゆっくり操作できるように時間制限もありません。",
+      "source": "ai"
+    },
+    {
+      "u": "외국어 메뉴가 많아서 어려워요",
+      "expect": {
+        "ez": 2,
+        "lg": "ko"
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 1,
+        "vo": true,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": []
+      },
+      "good": false,
+      "summary": "외국어 대신 쉬운 한국어 메뉴로 보여드릴게요. 글씨는 크게, 소리로 읽어주기도 켜 두었고, 시간 제한 없이 천천히 고르실 수 있어요.",
+      "source": "ai"
+    },
+    {
+      "u": "눈부셔서 하얀 화면을 오래 못 봐요",
+      "expect": {
+        "hc": true
+      },
+      "got": {
+        "fs": 2,
+        "hc": true,
+        "ez": 1,
+        "vo": true,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": []
+      },
+      "good": true,
+      "summary": "눈이 부시지 않도록 검은 바탕에 노란 글씨로 바꿨어요. 글씨는 조금 크게 하고, 천천히 볼 수 있도록 시간 제한도 없앴어요.",
+      "source": "ai"
+    }
+  ]
+}

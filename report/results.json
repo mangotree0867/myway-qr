@@ -1,0 +1,18 @@
+{
+ "url": "https://myway-qr.vercel.app",
+ "order_ai": "98%",
+ "order_rule": "56%",
+ "order_ms": "1.3초",
+ "lens_clean": "87.5%",
+ "lens_photo": "100%",
+ "lens_ms": "3.8초",
+ "jargon_before": "58",
+ "jargon_after": "0",
+ "len_before": "18.8",
+ "len_after": "16.6",
+ "invented": "36건 중 1",
+ "extra_trouble": "<tr><td><b>다른 언어를 골라도 한국어로 답함</b></td><td>베트남어 결과에 한국어가 섞이는 문제를 평가 중에 발견해, 출력 언어를 검사하고 어긋나면 다시 요청하도록 고쳤습니다.</td></tr><tr><td><b>'영어 메뉴가 어렵다'를 영어로 바꿔 달라는 뜻으로 오해</b></td><td>평가 중 발견해 설정 기준을 보완했고, 처음 보는 문장 10개로 다시 확인했습니다.</td></tr>",
+ "s3_images": "<img class='shot' src='assets/lens_result.png' style='height:270px'/><img class='shot' src='assets/after_item.png' style='height:270px'/><img class='shot' src='assets/profile2_ai.png' style='height:270px'/><p class='muted' style='font-size:14px;line-height:1.5;margin:0'>왼쪽: 화면 도우미 실제 결과 (옵션 창에서 '차갑게'를 원할 때 ICE 버튼 표시, 필수 컵 선택 주의 안내)<br>가운데: AI 쉬운 말 메뉴<br>오른쪽: '눈이 침침하고 우유를 마시면 배가 아파요, 휠체어를 타요'를 AI가 설정으로 바꾼 결과</p>",
+ "video": "메일 첨부 (시연영상_내방식QR.mp4, 3분 33초, 나레이션 포함)",
+ "github": "https://github.com/mangotree0867/myway-qr"
+}

@@ -1,0 +1,450 @@
+{
+  "provider": "anthropic",
+  "model": "claude-haiku-5-5",
+  "original": {
+    "avgLen": 18.8,
+    "jargon": 58
+  },
+  "report": {
+    "1-ko": {
+      "ms": 6475,
+      "n": 18,
+      "avgLen": 20.4,
+      "jargon": 2,
+      "invented": [],
+      "samples": [
+        {
+          "id": "americano",
+          "before": "에스프레소 샷에 물을 더한 클린한 블랙 커피",
+          "after": "아메리카노 (진한 커피에 물을 탄 음료): 진한 커피에 물을 넣어 깔끔한 맛이에요",
+          "tags": [
+            "깔끔해요",
+            "써요"
+          ]
+        },
+        {
+          "id": "decaf",
+          "before": "CO2 공법 디카페인 원두 사용, 카페인 97% 제거",
+          "after": "디카페인 아메리카노 (카페인을 줄인 커피): 카페인을 97% 뺀 커피를 써요",
+          "tags": [
+            "가벼워요",
+            "고소해요"
+          ]
+        },
+        {
+          "id": "latte",
+          "before": "에스프레소와 스팀 밀크의 부드러운 밸런스",
+          "after": "카페라떼 (우유 많은 커피): 진한 커피와 따뜻한 우유가 부드러워요",
+          "tags": [
+            "부드러워요",
+            "고소해요"
+          ]
+        },
+        {
+          "id": "vanilla",
+          "before": "마다가스카르 바닐라 빈 시럽을 더한 시그니처 라떼",
+          "after": "바닐라 라떼 (달콤한 향 우유 커피): 달콤한 바닐라 맛 시럽을 넣은 라떼예요",
+          "tags": [
+            "달아요",
+            "향기로워요"
+          ]
+        },
+        {
+          "id": "coldbrew",
+          "before": "12시간 저온 추출한 산미가 적은 커피",
+          "after": "콜드브루 (차갑게 우린 커피): 열두 시간 천천히 우려 신맛이 적어요",
+          "tags": [
+            "부드러워요",
+            "진해요"
+          ]
+        },
+        {
+          "id": "einspanner",
+          "before": "진한 롱블랙 위에 수제 크림을 올린 비엔나 스타일",
+          "after": "아인슈페너 (크림 올린 커피): 진한 커피 위에 달콤한 크림을 올렸어요",
+          "tags": [
+            "달아요",
+            "진해요"
+          ]
+        },
+        {
+          "id": "mocha",
+          "before": "에스프레소, 초콜릿 소스, 스팀 밀크, 휘핑크림",
+          "after": "카페모카 (초콜릿 커피): 커피에 초콜릿 맛 소스와 크림을 넣었어요",
+          "tags": [
+            "달아요",
+            "부드러워요"
+          ]
+        },
+        {
+          "id": "choco",
+          "before": "벨기에산 다크 초콜릿 파우더와 밀크",
+          "after": "초코라떼 (초콜릿 우유): 진한 초콜릿 가루를 우유에 넣었어요",
+          "tags": [
+            "달아요",
+            "고소해요"
+          ]
+        },
+        {
+          "id": "sweetpotato",
+          "before": "국내산 고구마 페이스트와 밀크",
+          "after": "고구마라떼 (고구마 우유): 고구마를 곱게 갈아 우유와 섞었어요",
+          "tags": [
+            "달아요",
+            "고소해요"
+          ]
+        },
+        {
+          "id": "strawberry",
+          "before": "생딸기와 요거트 베이스를 블렌딩",
+          "after": "딸기 스무디 (딸기 간 음료): 생딸기를 갈아 걸쭉하게 만들었어요",
+          "tags": [
+            "달아요",
+            "상큼해요"
+          ]
+        },
+        {
+          "id": "lemonade",
+          "before": "수제 레몬청과 탄산수",
+          "after": "레몬에이드 (레몬 탄 음료): 레몬을 설탕에 재운 청을 톡 쏘는 물에 탔어요",
+          "tags": [
+            "새콤해요",
+            "톡 쏴요"
+          ]
+        },
+        {
+          "id": "chamomile",
+          "before": "디카페인 허브 티백 인퓨전",
+          "after": "캐모마일 (꽃향기 차): 꽃향기가 나는 차예요. 카페인이 없어요",
+          "tags": [
+            "향기로워요",
+            "부드러워요"
+          ]
+        },
+        {
+          "id": "yuja",
+          "before": "고흥산 유자청 블렌딩",
+          "after": "유자차 (유자 탄 따뜻한 차): 유자를 설탕에 재운 청을 차에 탔어요",
+          "tags": [
+            "달아요",
+            "상큼해요"
+          ]
+        },
+        {
+          "id": "earlgrey",
+          "before": "베르가못 향 블랙티",
+          "after": "얼그레이 (꽃향기 홍차): 귤 비슷한 꽃향기가 나는 홍차예요",
+          "tags": [
+            "향기로워요",
+            "써요"
+          ]
+        },
+        {
+          "id": "cheesecake",
+          "before": "크림치즈 베이스의 꾸덕한 텍스처",
+          "after": "뉴욕 치즈케이크 (부드러운 치즈 케이크): 부드러운 치즈로 만들어 쫀득하고 진해요",
+          "tags": [
+            "부드러워요",
+            "진해요"
+          ]
+        },
+        {
+          "id": "croissant",
+          "before": "프랑스산 AOP 버터 라미네이팅",
+          "after": "버터 크루아상 (버터 빵): 얇은 겹이 바삭하고 버터 향이 나요",
+          "tags": [
+            "고소해요",
+            "바삭해요"
+          ]
+        },
+        {
+          "id": "saltbread",
+          "before": "고메 버터와 게랑드 소금 토핑",
+          "after": "소금빵 (짭짤한 빵): 버터 향이 나고 위에 소금을 뿌렸어요",
+          "tags": [
+            "짭짤해요",
+            "고소해요"
+          ]
+        },
+        {
+          "id": "macaron",
+          "before": "아몬드 꼬끄와 가나슈 필링",
+          "after": "마카롱 (동그란 과자): 아몬드 가루 과자 사이에 달콤한 크림을 넣었어요",
+          "tags": [
+            "달아요",
+            "바삭해요"
+          ]
+        }
+      ]
+    },
+    "2-ko": {
+      "ms": 5323,
+      "n": 18,
+      "avgLen": 16.6,
+      "jargon": 0,
+      "invented": [
+        {
+          "id": "einspanner",
+          "invented": true,
+          "reason": "원문에는 '진한 롱블랙 위에 수제 크림'만 있는데, 다시 쓴 글은 '달콤한 크림'이라고 했다. 크림이 달다는 것은 원문에 없는 맛 정보이다."
+        }
+      ],
+      "samples": [
+        {
+          "id": "americano",
+          "before": "에스프레소 샷에 물을 더한 클린한 블랙 커피",
+          "after": "아메리카노 (진한 커피에 물을 탄 것): 쓴 커피에 물을 넣었어요",
+          "tags": [
+            "쓴맛",
+            "깔끔해요"
+          ]
+        },
+        {
+          "id": "decaf",
+          "before": "CO2 공법 디카페인 원두 사용, 카페인 97% 제거",
+          "after": "디카페인 아메리카노 (잠 안 오는 커피): 커피 속 힘을 거의 뺐어요",
+          "tags": [
+            "쓴맛",
+            "가벼워요"
+          ]
+        },
+        {
+          "id": "latte",
+          "before": "에스프레소와 스팀 밀크의 부드러운 밸런스",
+          "after": "카페라떼 (우유를 넣은 커피): 커피에 따뜻한 우유를 넣었어요",
+          "tags": [
+            "부드러워요",
+            "고소해요"
+          ]
+        },
+        {
+          "id": "vanilla",
+          "before": "마다가스카르 바닐라 빈 시럽을 더한 시그니처 라떼",
+          "after": "바닐라 라떼 (향긋한 우유 커피): 바닐라 향 단 물을 넣었어요",
+          "tags": [
+            "달아요",
+            "향긋해요"
+          ]
+        },
+        {
+          "id": "coldbrew",
+          "before": "12시간 저온 추출한 산미가 적은 커피",
+          "after": "콜드브루 (천천히 우린 커피): 오랫동안 천천히 우려낸 커피예요",
+          "tags": [
+            "부드러워요",
+            "진해요"
+          ]
+        },
+        {
+          "id": "einspanner",
+          "before": "진한 롱블랙 위에 수제 크림을 올린 비엔나 스타일",
+          "after": "아인슈페너 (크림 올린 커피): 진한 커피 위에 달콤한 크림을 올렸어요",
+          "tags": [
+            "진해요",
+            "달아요"
+          ]
+        },
+        {
+          "id": "mocha",
+          "before": "에스프레소, 초콜릿 소스, 스팀 밀크, 휘핑크림",
+          "after": "카페모카 (초콜릿 커피): 커피에 초콜릿 물과 우유 거품을 넣었어요",
+          "tags": [
+            "달아요",
+            "진해요"
+          ]
+        },
+        {
+          "id": "choco",
+          "before": "벨기에산 다크 초콜릿 파우더와 밀크",
+          "after": "초코라떼 (초콜릿 우유): 진한 초콜릿 가루를 우유에 탔어요",
+          "tags": [
+            "달아요",
+            "고소해요"
+          ]
+        },
+        {
+          "id": "sweetpotato",
+          "before": "국내산 고구마 페이스트와 밀크",
+          "after": "고구마라떼 (고구마 우유): 고구마를 곱게 갈아 우유와 섞었어요",
+          "tags": [
+            "달아요",
+            "고소해요"
+          ]
+        },
+        {
+          "id": "strawberry",
+          "before": "생딸기와 요거트 베이스를 블렌딩",
+          "after": "딸기 스무디 (딸기를 갈은 음료): 딸기를 곱게 갈아 요구르트와 섞었어요",
+          "tags": [
+            "달콤해요",
+            "새콤해요"
+          ]
+        },
+        {
+          "id": "lemonade",
+          "before": "수제 레몬청과 탄산수",
+          "after": "레몬에이드 (레몬 맛 음료): 레몬 물에 톡 쏘는 물을 넣었어요",
+          "tags": [
+            "새콤해요",
+            "상큼해요"
+          ]
+        },
+        {
+          "id": "chamomile",
+          "before": "디카페인 허브 티백 인퓨전",
+          "after": "캐모마일 (꽃차): 꽃 향기가 나는 차예요",
+          "tags": [
+            "향긋해요",
+            "순해요"
+          ]
+        },
+        {
+          "id": "yuja",
+          "before": "고흥산 유자청 블렌딩",
+          "after": "유자차 (노란 과일 차): 유자로 만든 달콤한 차예요",
+          "tags": [
+            "달아요",
+            "향긋해요"
+          ]
+        },
+        {
+          "id": "earlgrey",
+          "before": "베르가못 향 블랙티",
+          "after": "얼그레이 (향긋한 홍차): 꽃 향기가 나는 홍차예요",
+          "tags": [
+            "향긋해요",
+            "가벼워요"
+          ]
+        },
+        {
+          "id": "cheesecake",
+          "before": "크림치즈 베이스의 꾸덕한 텍스처",
+          "after": "뉴욕 치즈케이크 (뉴욕식 치즈 케이크): 부드러운 치즈 케이크예요",
+          "tags": [
+            "부드러워요",
+            "달아요"
+          ]
+        },
+        {
+          "id": "croissant",
+          "before": "프랑스산 AOP 버터 라미네이팅",
+          "after": "버터 크루아상 (버터 빵): 겹겹이 바삭한 버터 빵이에요",
+          "tags": [
+            "고소해요",
+            "바삭해요"
+          ]
+        },
+        {
+          "id": "saltbread",
+          "before": "고메 버터와 게랑드 소금 토핑",
+          "after": "소금빵 (짭짤한 빵): 버터 향이 나고 위에 소금을 뿌렸어요",
+          "tags": [
+            "짭짤해요",
+            "고소해요"
+          ]
+        },
+        {
+          "id": "macaron",
+          "before": "아몬드 꼬끄와 가나슈 필링",
+          "after": "마카롱 (동그란 과자): 달콤한 크림을 넣은 작은 과자예요",
+          "tags": [
+            "달아요",
+            "부드러워요"
+          ]
+        }
+      ]
+    },
+    "1-en": {
+      "ms": 6238,
+      "n": 18,
+      "samples": [
+        "Americano (hot water and coffee): Strong coffee mixed with water. Simple and clean.",
+        "Decaf Americano (low caffeine coffee): Made with beans that have 97% less caffeine.",
+        "Caffè Latte (coffee with warm milk): Coffee with soft, warm milk. Smooth and mild.",
+        "Vanilla Latte (sweet milk coffee): Milk coffee with sweet vanilla flavor."
+      ],
+      "hangulLeak": 0
+    },
+    "2-en": {
+      "ms": 4779,
+      "n": 18,
+      "samples": [
+        "Americano (hot water coffee): Strong coffee with water. Simple and bitter.",
+        "Decaf Americano (coffee with little caffeine): Coffee with very little caffeine. Mild taste.",
+        "Caffe Latte (coffee with warm milk): Coffee with soft, warm milk. Smooth taste.",
+        "Vanilla Latte (milk coffee with sweet flower taste): Milk coffee with sweet vanilla. Tastes sweet."
+      ],
+      "hangulLeak": 0
+    },
+    "1-vi": {
+      "ms": 11276,
+      "n": 18,
+      "samples": [
+        "Cà phê Americano: Cà phê đen. Có shot espresso và nước.",
+        "Americano không cà phê in: Cà phê đen ít caffeine. Đã bỏ 97% caffeine.",
+        "Cà phê latte: Cà phê có sữa nóng, vị êm.",
+        "Latte vani: Latte có siro vani. Vị ngọt thơm."
+      ],
+      "hangulLeak": 0
+    },
+    "2-vi": {
+      "ms": 5768,
+      "n": 18,
+      "samples": [
+        "Cà phê Americano (cà phê đen pha nước): Cà phê đen pha thêm nước.",
+        "Americano không cafein (cà phê ít cafein): Hầu hết cafein đã được lấy ra.",
+        "Cà phê latte (cà phê với sữa nóng): Cà phê hòa với sữa béo mềm.",
+        "Latte vani (cà phê sữa thơm vani): Cà phê sữa có mùi vani thơm."
+      ],
+      "hangulLeak": 0
+    },
+    "1-zh": {
+      "ms": 7051,
+      "n": 18,
+      "samples": [
+        "美式咖啡 (加水的黑咖啡): 浓咖啡加水，味道清爽，偏苦。",
+        "无咖啡因美式 (咖啡因少的咖啡): 咖啡因去掉了九成七，喝了不容易睡不着。",
+        "拿铁 (加热牛奶的咖啡): 咖啡和热牛奶混在一起，喝起来很柔和。",
+        "香草拿铁 (带香草甜味的拿铁): 加了香草甜糖浆，喝起来甜甜香香的。"
+      ],
+      "hangulLeak": 0
+    },
+    "2-zh": {
+      "ms": 5234,
+      "n": 18,
+      "samples": [
+        "美式咖啡 (苦的黑咖啡): 苦苦的黑咖啡，加了水。",
+        "无咖啡因美式 (咖啡因很少的咖啡): 咖啡因几乎都去掉了。",
+        "拿铁 (牛奶咖啡): 咖啡和热牛奶，口感很软。",
+        "香草拿铁 (香草味牛奶咖啡): 加了香草的甜糖浆。"
+      ],
+      "hangulLeak": 0
+    },
+    "1-ja": {
+      "ms": 6805,
+      "n": 18,
+      "samples": [
+        "アメリカーノ (お湯で薄めたコーヒー): コーヒーに水を足した、さっぱりした黒い飲み物です",
+        "デカフェ・アメリカーノ (カフェインを減らしたコーヒー): カフェインを97%減らしたコーヒー豆を使っています",
+        "カフェラテ (ミルクのコーヒー): 濃いコーヒーに、あたたかいミルクを合わせた飲み物です",
+        "バニララテ (バニラの香りのミルクコーヒー): バニラの甘い香りのシロップを入れた人気のラテです"
+      ],
+      "hangulLeak": 0
+    },
+    "2-ja": {
+      "ms": 6500,
+      "n": 18,
+      "samples": [
+        "アメリカーノ (お湯で薄めたコーヒー): コーヒーに水を足した、さっぱりした苦い飲み物です",
+        "デカフェ・アメリカーノ (カフェインが少ないコーヒー): カフェインをほとんど取った、やさしいコーヒーです",
+        "カフェラテ (ミルクのコーヒー): コーヒーと温かいミルクが、やわらかく混ざっています",
+        "バニララテ (甘い花の香りのミルクコーヒー): バニラの甘い香りがする、人気のミルクコーヒーです"
+      ],
+      "hangulLeak": 0
+    }
+  },
+  "at": "2026-10-27T12:10:10.260Z",
+  "review_fix": {
+    "2-ko/einspanner": "검수에서 걸린 \"달콤한 크림\"을 \"직접 만든 크림\"으로 고쳐 저장"
+  }
+}

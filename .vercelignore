@@ -1,0 +1,4 @@
+.env*
+eval/
+report/
+.git

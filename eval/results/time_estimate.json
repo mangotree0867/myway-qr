@@ -1,0 +1,24 @@
+{
+ "low": {
+  "standard": 94.5,
+  "myway_touch": 50.2,
+  "myway_voice": 25.2
+ },
+ "high": {
+  "standard": 144.2,
+  "myway_touch": 70.2,
+  "myway_voice": 30.5
+ },
+ "mid": {
+  "standard": 119.3,
+  "myway_touch": 60.2,
+  "myway_voice": 27.9,
+  "cut_touch_pct": 50,
+  "cut_voice_pct": 77
+ },
+ "expected_errors": {
+  "standard": 1.4,
+  "myway": 0.2
+ },
+ "note": "실제 측정이 아닌 추정치. 80대 고령자 1인 사용을 가정."
+}

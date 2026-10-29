@@ -1,0 +1,1725 @@
+{
+ "1-ko": [
+  {
+   "id": "americano",
+   "name": "아메리카노 (진한 커피에 물을 탄 음료)",
+   "desc": "진한 커피에 물을 넣어 깔끔한 맛이에요",
+   "tags": [
+    "깔끔해요",
+    "써요"
+   ]
+  },
+  {
+   "id": "decaf",
+   "name": "디카페인 아메리카노 (카페인을 줄인 커피)",
+   "desc": "카페인을 97% 뺀 커피를 써요",
+   "tags": [
+    "가벼워요",
+    "고소해요"
+   ]
+  },
+  {
+   "id": "latte",
+   "name": "카페라떼 (우유 많은 커피)",
+   "desc": "진한 커피와 따뜻한 우유가 부드러워요",
+   "tags": [
+    "부드러워요",
+    "고소해요"
+   ]
+  },
+  {
+   "id": "vanilla",
+   "name": "바닐라 라떼 (달콤한 향 우유 커피)",
+   "desc": "달콤한 바닐라 맛 시럽을 넣은 라떼예요",
+   "tags": [
+    "달아요",
+    "향기로워요"
+   ]
+  },
+  {
+   "id": "coldbrew",
+   "name": "콜드브루 (차갑게 우린 커피)",
+   "desc": "열두 시간 천천히 우려 신맛이 적어요",
+   "tags": [
+    "부드러워요",
+    "진해요"
+   ]
+  },
+  {
+   "id": "einspanner",
+   "name": "아인슈페너 (크림 올린 커피)",
+   "desc": "진한 커피 위에 달콤한 크림을 올렸어요",
+   "tags": [
+    "달아요",
+    "진해요"
+   ]
+  },
+  {
+   "id": "mocha",
+   "name": "카페모카 (초콜릿 커피)",
+   "desc": "커피에 초콜릿 맛 소스와 크림을 넣었어요",
+   "tags": [
+    "달아요",
+    "부드러워요"
+   ]
+  },
+  {
+   "id": "choco",
+   "name": "초코라떼 (초콜릿 우유)",
+   "desc": "진한 초콜릿 가루를 우유에 넣었어요",
+   "tags": [
+    "달아요",
+    "고소해요"
+   ]
+  },
+  {
+   "id": "sweetpotato",
+   "name": "고구마라떼 (고구마 우유)",
+   "desc": "고구마를 곱게 갈아 우유와 섞었어요",
+   "tags": [
+    "달아요",
+    "고소해요"
+   ]
+  },
+  {
+   "id": "strawberry",
+   "name": "딸기 스무디 (딸기 간 음료)",
+   "desc": "생딸기를 갈아 걸쭉하게 만들었어요",
+   "tags": [
+    "달아요",
+    "상큼해요"
+   ]
+  },
+  {
+   "id": "lemonade",
+   "name": "레몬에이드 (레몬 탄 음료)",
+   "desc": "레몬을 설탕에 재운 청을 톡 쏘는 물에 탔어요",
+   "tags": [
+    "새콤해요",
+    "톡 쏴요"
+   ]
+  },
+  {
+   "id": "chamomile",
+   "name": "캐모마일 (꽃향기 차)",
+   "desc": "꽃향기가 나는 차예요. 카페인이 없어요",
+   "tags": [
+    "향기로워요",
+    "부드러워요"
+   ]
+  },
+  {
+   "id": "yuja",
+   "name": "유자차 (유자 탄 따뜻한 차)",
+   "desc": "유자를 설탕에 재운 청을 차에 탔어요",
+   "tags": [
+    "달아요",
+    "상큼해요"
+   ]
+  },
+  {
+   "id": "earlgrey",
+   "name": "얼그레이 (꽃향기 홍차)",
+   "desc": "귤 비슷한 꽃향기가 나는 홍차예요",
+   "tags": [
+    "향기로워요",
+    "써요"
+   ]
+  },
+  {
+   "id": "cheesecake",
+   "name": "뉴욕 치즈케이크 (부드러운 치즈 케이크)",
+   "desc": "부드러운 치즈로 만들어 쫀득하고 진해요",
+   "tags": [
+    "부드러워요",
+    "진해요"
+   ]
+  },
+  {
+   "id": "croissant",
+   "name": "버터 크루아상 (버터 빵)",
+   "desc": "얇은 겹이 바삭하고 버터 향이 나요",
+   "tags": [
+    "고소해요",
+    "바삭해요"
+   ]
+  },
+  {
+   "id": "saltbread",
+   "name": "소금빵 (짭짤한 빵)",
+   "desc": "버터 향이 나고 위에 소금을 뿌렸어요",
+   "tags": [
+    "짭짤해요",
+    "고소해요"
+   ]
+  },
+  {
+   "id": "macaron",
+   "name": "마카롱 (동그란 과자)",
+   "desc": "아몬드 가루 과자 사이에 달콤한 크림을 넣었어요",
+   "tags": [
+    "달아요",
+    "바삭해요"
+   ]
+  }
+ ],
+ "2-ko": [
+  {
+   "id": "americano",
+   "name": "아메리카노 (진한 커피에 물을 탄 것)",
+   "desc": "쓴 커피에 물을 넣었어요",
+   "tags": [
+    "쓴맛",
+    "깔끔해요"
+   ]
+  },
+  {
+   "id": "decaf",
+   "name": "디카페인 아메리카노 (잠 안 오는 커피)",
+   "desc": "커피 속 힘을 거의 뺐어요",
+   "tags": [
+    "쓴맛",
+    "가벼워요"
+   ]
+  },
+  {
+   "id": "latte",
+   "name": "카페라떼 (우유를 넣은 커피)",
+   "desc": "커피에 따뜻한 우유를 넣었어요",
+   "tags": [
+    "부드러워요",
+    "고소해요"
+   ]
+  },
+  {
+   "id": "vanilla",
+   "name": "바닐라 라떼 (향긋한 우유 커피)",
+   "desc": "바닐라 향 단 물을 넣었어요",
+   "tags": [
+    "달아요",
+    "향긋해요"
+   ]
+  },
+  {
+   "id": "coldbrew",
+   "name": "콜드브루 (천천히 우린 커피)",
+   "desc": "오랫동안 천천히 우려낸 커피예요",
+   "tags": [
+    "부드러워요",
+    "진해요"
+   ]
+  },
+  {
+   "id": "einspanner",
+   "name": "아인슈페너 (크림 올린 커피)",
+   "desc": "진한 커피 위에 직접 만든 크림을 올렸어요",
+   "tags": [
+    "진해요",
+    "부드러워요"
+   ]
+  },
+  {
+   "id": "mocha",
+   "name": "카페모카 (초콜릿 커피)",
+   "desc": "커피에 초콜릿 물과 우유 거품을 넣었어요",
+   "tags": [
+    "달아요",
+    "진해요"
+   ]
+  },
+  {
+   "id": "choco",
+   "name": "초코라떼 (초콜릿 우유)",
+   "desc": "진한 초콜릿 가루를 우유에 탔어요",
+   "tags": [
+    "달아요",
+    "고소해요"
+   ]
+  },
+  {
+   "id": "sweetpotato",
+   "name": "고구마라떼 (고구마 우유)",
+   "desc": "고구마를 곱게 갈아 우유와 섞었어요",
+   "tags": [
+    "달아요",
+    "고소해요"
+   ]
+  },
+  {
+   "id": "strawberry",
+   "name": "딸기 스무디 (딸기를 갈은 음료)",
+   "desc": "딸기를 곱게 갈아 요구르트와 섞었어요",
+   "tags": [
+    "달콤해요",
+    "새콤해요"
+   ]
+  },
+  {
+   "id": "lemonade",
+   "name": "레몬에이드 (레몬 맛 음료)",
+   "desc": "레몬 물에 톡 쏘는 물을 넣었어요",
+   "tags": [
+    "새콤해요",
+    "상큼해요"
+   ]
+  },
+  {
+   "id": "chamomile",
+   "name": "캐모마일 (꽃차)",
+   "desc": "꽃 향기가 나는 차예요",
+   "tags": [
+    "향긋해요",
+    "순해요"
+   ]
+  },
+  {
+   "id": "yuja",
+   "name": "유자차 (노란 과일 차)",
+   "desc": "유자로 만든 달콤한 차예요",
+   "tags": [
+    "달아요",
+    "향긋해요"
+   ]
+  },
+  {
+   "id": "earlgrey",
+   "name": "얼그레이 (향긋한 홍차)",
+   "desc": "꽃 향기가 나는 홍차예요",
+   "tags": [
+    "향긋해요",
+    "가벼워요"
+   ]
+  },
+  {
+   "id": "cheesecake",
+   "name": "뉴욕 치즈케이크 (뉴욕식 치즈 케이크)",
+   "desc": "부드러운 치즈 케이크예요",
+   "tags": [
+    "부드러워요",
+    "달아요"
+   ]
+  },
+  {
+   "id": "croissant",
+   "name": "버터 크루아상 (버터 빵)",
+   "desc": "겹겹이 바삭한 버터 빵이에요",
+   "tags": [
+    "고소해요",
+    "바삭해요"
+   ]
+  },
+  {
+   "id": "saltbread",
+   "name": "소금빵 (짭짤한 빵)",
+   "desc": "버터 향이 나고 위에 소금을 뿌렸어요",
+   "tags": [
+    "짭짤해요",
+    "고소해요"
+   ]
+  },
+  {
+   "id": "macaron",
+   "name": "마카롱 (동그란 과자)",
+   "desc": "달콤한 크림을 넣은 작은 과자예요",
+   "tags": [
+    "달아요",
+    "부드러워요"
+   ]
+  }
+ ],
+ "1-en": [
+  {
+   "id": "americano",
+   "name": "Americano (hot water and coffee)",
+   "desc": "Strong coffee mixed with water. Simple and clean.",
+   "tags": [
+    "strong",
+    "bitter",
+    "simple"
+   ]
+  },
+  {
+   "id": "decaf",
+   "name": "Decaf Americano (low caffeine coffee)",
+   "desc": "Made with beans that have 97% less caffeine.",
+   "tags": [
+    "mild",
+    "bitter",
+    "low caffeine"
+   ]
+  },
+  {
+   "id": "latte",
+   "name": "Caffè Latte (coffee with warm milk)",
+   "desc": "Coffee with soft, warm milk. Smooth and mild.",
+   "tags": [
+    "soft",
+    "milky",
+    "mild"
+   ]
+  },
+  {
+   "id": "vanilla",
+   "name": "Vanilla Latte (sweet milk coffee)",
+   "desc": "Milk coffee with sweet vanilla flavor.",
+   "tags": [
+    "sweet",
+    "vanilla",
+    "milky"
+   ]
+  },
+  {
+   "id": "coldbrew",
+   "name": "Cold Brew (cold slow-made coffee)",
+   "desc": "Coffee made slowly with cold water. Not sour.",
+   "tags": [
+    "smooth",
+    "mild",
+    "cold"
+   ]
+  },
+  {
+   "id": "einspanner",
+   "name": "Einspänner (coffee with whipped cream)",
+   "desc": "Strong coffee topped with thick, soft cream.",
+   "tags": [
+    "strong",
+    "creamy",
+    "sweet"
+   ]
+  },
+  {
+   "id": "mocha",
+   "name": "Caffè Mocha (chocolate coffee)",
+   "desc": "Coffee with chocolate, warm milk, and whipped cream.",
+   "tags": [
+    "sweet",
+    "chocolate",
+    "creamy"
+   ]
+  },
+  {
+   "id": "choco",
+   "name": "Chocolate Latte (cocoa milk)",
+   "desc": "Warm milk with rich, dark chocolate powder.",
+   "tags": [
+    "sweet",
+    "chocolate",
+    "milky"
+   ]
+  },
+  {
+   "id": "sweetpotato",
+   "name": "Sweet Potato Latte (potato drink)",
+   "desc": "Milk drink made with sweet potato paste.",
+   "tags": [
+    "sweet",
+    "nutty",
+    "milky"
+   ]
+  },
+  {
+   "id": "strawberry",
+   "name": "Strawberry Smoothie (fruit drink)",
+   "desc": "Thick, cold drink made with fresh strawberries and sweet yogurt.",
+   "tags": [
+    "sweet",
+    "fruity",
+    "thick"
+   ]
+  },
+  {
+   "id": "lemonade",
+   "name": "Lemonade (lemon drink with bubbles)",
+   "desc": "Homemade lemon syrup mixed with bubbly water.",
+   "tags": [
+    "sour",
+    "fizzy",
+    "refreshing"
+   ]
+  },
+  {
+   "id": "chamomile",
+   "name": "Chamomile (flower tea, no caffeine)",
+   "desc": "Tea made from flowers in a tea bag. Light and calm.",
+   "tags": [
+    "light",
+    "flowery",
+    "calm"
+   ]
+  },
+  {
+   "id": "yuja",
+   "name": "Yuja Tea (citrus honey tea)",
+   "desc": "Warm tea made with sweet yuja fruit syrup.",
+   "tags": [
+    "sweet",
+    "citrus",
+    "fruity"
+   ]
+  },
+  {
+   "id": "earlgrey",
+   "name": "Earl Grey (flower-scent black tea)",
+   "desc": "Black tea with a light, flowery smell.",
+   "tags": [
+    "flowery",
+    "bitter",
+    "light"
+   ]
+  },
+  {
+   "id": "cheesecake",
+   "name": "New York Cheesecake (creamy cake)",
+   "desc": "Soft, thick cake made with sweet cream cheese.",
+   "tags": [
+    "sweet",
+    "creamy",
+    "soft"
+   ]
+  },
+  {
+   "id": "croissant",
+   "name": "Butter Croissant (flaky bread)",
+   "desc": "Crispy, flaky bread with lots of butter.",
+   "tags": [
+    "buttery",
+    "crispy",
+    "soft"
+   ]
+  },
+  {
+   "id": "saltbread",
+   "name": "Salt Bread (buttery bread with salt)",
+   "desc": "Soft bread with butter and salt on top.",
+   "tags": [
+    "salty",
+    "buttery",
+    "soft"
+   ]
+  },
+  {
+   "id": "macaron",
+   "name": "Macaron (small sweet cookie)",
+   "desc": "Small, sweet cookie with a soft, creamy filling.",
+   "tags": [
+    "sweet",
+    "soft",
+    "creamy"
+   ]
+  }
+ ],
+ "2-en": [
+  {
+   "id": "americano",
+   "name": "Americano (hot water coffee)",
+   "desc": "Strong coffee with water. Simple and bitter.",
+   "tags": [
+    "bitter",
+    "strong",
+    "simple"
+   ]
+  },
+  {
+   "id": "decaf",
+   "name": "Decaf Americano (coffee with little caffeine)",
+   "desc": "Coffee with very little caffeine. Mild taste.",
+   "tags": [
+    "mild",
+    "bitter",
+    "light"
+   ]
+  },
+  {
+   "id": "latte",
+   "name": "Caffe Latte (coffee with warm milk)",
+   "desc": "Coffee with soft, warm milk. Smooth taste.",
+   "tags": [
+    "soft",
+    "milky",
+    "smooth"
+   ]
+  },
+  {
+   "id": "vanilla",
+   "name": "Vanilla Latte (milk coffee with sweet flower taste)",
+   "desc": "Milk coffee with sweet vanilla. Tastes sweet.",
+   "tags": [
+    "sweet",
+    "milky",
+    "soft"
+   ]
+  },
+  {
+   "id": "coldbrew",
+   "name": "Cold Brew (slow-made cold coffee)",
+   "desc": "Coffee made slowly with cold water. Not sour.",
+   "tags": [
+    "smooth",
+    "mild",
+    "strong"
+   ]
+  },
+  {
+   "id": "einspanner",
+   "name": "Einspanner (coffee with cream on top)",
+   "desc": "Strong coffee with soft cream on top.",
+   "tags": [
+    "strong",
+    "creamy",
+    "sweet"
+   ]
+  },
+  {
+   "id": "mocha",
+   "name": "Caffe Mocha (chocolate coffee)",
+   "desc": "Coffee with chocolate, milk, and whipped cream.",
+   "tags": [
+    "sweet",
+    "chocolate",
+    "creamy"
+   ]
+  },
+  {
+   "id": "choco",
+   "name": "Chocolate Latte (milk with chocolate)",
+   "desc": "Warm milk with dark chocolate. Sweet and rich.",
+   "tags": [
+    "chocolate",
+    "sweet",
+    "milky"
+   ]
+  },
+  {
+   "id": "sweetpotato",
+   "name": "Sweet Potato Latte (milk with sweet potato)",
+   "desc": "Milk with soft, sweet potato. Tastes sweet.",
+   "tags": [
+    "sweet",
+    "soft",
+    "milky"
+   ]
+  },
+  {
+   "id": "strawberry",
+   "name": "Strawberry Smoothie (cold fruit drink)",
+   "desc": "Thick, cold drink made with strawberries.",
+   "tags": [
+    "sweet",
+    "fruity",
+    "thick"
+   ]
+  },
+  {
+   "id": "lemonade",
+   "name": "Lemonade (lemon drink with bubbles)",
+   "desc": "Lemon drink with fizzy water. Sour and fresh.",
+   "tags": [
+    "sour",
+    "fizzy",
+    "fresh"
+   ]
+  },
+  {
+   "id": "chamomile",
+   "name": "Chamomile (flower tea)",
+   "desc": "Tea with a soft flower smell. No caffeine.",
+   "tags": [
+    "flower",
+    "mild",
+    "light"
+   ]
+  },
+  {
+   "id": "yuja",
+   "name": "Yuja Tea (sweet citrus tea)",
+   "desc": "Sweet and sour tea made with yuja fruit.",
+   "tags": [
+    "sweet",
+    "sour",
+    "fruity"
+   ]
+  },
+  {
+   "id": "earlgrey",
+   "name": "Earl Grey (black tea with flower smell)",
+   "desc": "Black tea with a flower smell. Light and clean.",
+   "tags": [
+    "flower",
+    "light",
+    "bitter"
+   ]
+  },
+  {
+   "id": "cheesecake",
+   "name": "New York Cheesecake (soft cheese cake)",
+   "desc": "Soft and thick cheese cake. Sweet and rich.",
+   "tags": [
+    "sweet",
+    "soft",
+    "creamy"
+   ]
+  },
+  {
+   "id": "croissant",
+   "name": "Butter Croissant (buttery bread)",
+   "desc": "Soft bread with lots of butter. Crispy outside.",
+   "tags": [
+    "buttery",
+    "soft",
+    "crispy"
+   ]
+  },
+  {
+   "id": "saltbread",
+   "name": "Salt Bread (bread with salt on top)",
+   "desc": "Soft bread with butter and salt on top.",
+   "tags": [
+    "salty",
+    "buttery",
+    "soft"
+   ]
+  },
+  {
+   "id": "macaron",
+   "name": "Macaron (small sweet cookie)",
+   "desc": "Small cookie with a sweet cream inside.",
+   "tags": [
+    "sweet",
+    "soft",
+    "creamy"
+   ]
+  }
+ ],
+ "1-vi": [
+  {
+   "id": "americano",
+   "name": "Cà phê Americano",
+   "desc": "Cà phê đen. Có shot espresso và nước.",
+   "tags": [
+    "cà phê",
+    "không sữa"
+   ]
+  },
+  {
+   "id": "decaf",
+   "name": "Americano không cà phê in",
+   "desc": "Cà phê đen ít caffeine. Đã bỏ 97% caffeine.",
+   "tags": [
+    "cà phê",
+    "không sữa",
+    "ít caffeine"
+   ]
+  },
+  {
+   "id": "latte",
+   "name": "Cà phê latte",
+   "desc": "Cà phê có sữa nóng, vị êm.",
+   "tags": [
+    "cà phê",
+    "có sữa"
+   ]
+  },
+  {
+   "id": "vanilla",
+   "name": "Latte vani",
+   "desc": "Latte có siro vani. Vị ngọt thơm.",
+   "tags": [
+    "cà phê",
+    "có sữa",
+    "ngọt"
+   ]
+  },
+  {
+   "id": "coldbrew",
+   "name": "Cold brew",
+   "desc": "Cà phê ủ lạnh 12 tiếng. Ít chua.",
+   "tags": [
+    "cà phê",
+    "uống lạnh"
+   ]
+  },
+  {
+   "id": "einspanner",
+   "name": "Einspänner",
+   "desc": "Cà phê đen đậm. Có kem tươi trên mặt.",
+   "tags": [
+    "cà phê",
+    "có kem"
+   ]
+  },
+  {
+   "id": "mocha",
+   "name": "Cà phê mocha",
+   "desc": "Cà phê, sốt sô-cô-la, sữa nóng và kem tươi.",
+   "tags": [
+    "cà phê",
+    "có sữa",
+    "sô-cô-la",
+    "có kem"
+   ]
+  },
+  {
+   "id": "choco",
+   "name": "Latte sô-cô-la",
+   "desc": "Bột sô-cô-la đen và sữa.",
+   "tags": [
+    "sô-cô-la",
+    "có sữa",
+    "không cà phê"
+   ]
+  },
+  {
+   "id": "sweetpotato",
+   "name": "Latte khoai lang",
+   "desc": "Khoai lang nghiền và sữa.",
+   "tags": [
+    "khoai lang",
+    "có sữa",
+    "không cà phê"
+   ]
+  },
+  {
+   "id": "strawberry",
+   "name": "Sinh tố dâu",
+   "desc": "Dâu tươi xay với sữa chua.",
+   "tags": [
+    "trái cây",
+    "lạnh",
+    "không cà phê"
+   ]
+  },
+  {
+   "id": "lemonade",
+   "name": "Nước chanh soda",
+   "desc": "Chanh tự làm và nước có ga.",
+   "tags": [
+    "chanh",
+    "lạnh",
+    "có ga",
+    "không cà phê"
+   ]
+  },
+  {
+   "id": "chamomile",
+   "name": "Trà hoa cúc",
+   "desc": "Trà thảo mộc, không cà phê in.",
+   "tags": [
+    "trà",
+    "thảo mộc",
+    "không cà phê"
+   ]
+  },
+  {
+   "id": "yuja",
+   "name": "Trà yuzu",
+   "desc": "Trà yuzu ngọt, làm từ mứt yuzu.",
+   "tags": [
+    "trà",
+    "trái cây",
+    "không cà phê"
+   ]
+  },
+  {
+   "id": "earlgrey",
+   "name": "Trà Earl Grey",
+   "desc": "Trà đen có mùi cam bergamot.",
+   "tags": [
+    "trà",
+    "không cà phê"
+   ]
+  },
+  {
+   "id": "cheesecake",
+   "name": "Bánh phô mai New York",
+   "desc": "Bánh phô mai kem. Mềm và béo.",
+   "tags": [
+    "bánh",
+    "ngọt"
+   ]
+  },
+  {
+   "id": "croissant",
+   "name": "Bánh sừng bò bơ",
+   "desc": "Bánh bơ Pháp. Lớp bánh xốp.",
+   "tags": [
+    "bánh",
+    "ngọt"
+   ]
+  },
+  {
+   "id": "saltbread",
+   "name": "Bánh mì muối",
+   "desc": "Bánh bơ, phủ muối.",
+   "tags": [
+    "bánh",
+    "mặn nhẹ"
+   ]
+  },
+  {
+   "id": "macaron",
+   "name": "Macaron",
+   "desc": "Bánh nhỏ làm từ hạnh nhân. Có nhân kem sô-cô-la.",
+   "tags": [
+    "bánh",
+    "ngọt"
+   ]
+  }
+ ],
+ "2-vi": [
+  {
+   "id": "americano",
+   "name": "Cà phê Americano (cà phê đen pha nước)",
+   "desc": "Cà phê đen pha thêm nước.",
+   "tags": [
+    "đắng",
+    "nhẹ"
+   ]
+  },
+  {
+   "id": "decaf",
+   "name": "Americano không cafein (cà phê ít cafein)",
+   "desc": "Hầu hết cafein đã được lấy ra.",
+   "tags": [
+    "đắng",
+    "nhẹ"
+   ]
+  },
+  {
+   "id": "latte",
+   "name": "Cà phê latte (cà phê với sữa nóng)",
+   "desc": "Cà phê hòa với sữa béo mềm.",
+   "tags": [
+    "béo",
+    "mềm"
+   ]
+  },
+  {
+   "id": "vanilla",
+   "name": "Latte vani (cà phê sữa thơm vani)",
+   "desc": "Cà phê sữa có mùi vani thơm.",
+   "tags": [
+    "ngọt",
+    "thơm"
+   ]
+  },
+  {
+   "id": "coldbrew",
+   "name": "Cold brew (cà phê ủ lạnh)",
+   "desc": "Cà phê ủ lâu trong nước lạnh.",
+   "tags": [
+    "đậm",
+    "mượt"
+   ]
+  },
+  {
+   "id": "einspanner",
+   "name": "Einspänner (cà phê đen có kem trên mặt)",
+   "desc": "Cà phê đen đậm có kem béo trên mặt.",
+   "tags": [
+    "đậm",
+    "béo"
+   ]
+  },
+  {
+   "id": "mocha",
+   "name": "Mocha (cà phê sô cô la)",
+   "desc": "Cà phê, sô cô la, sữa và kem béo.",
+   "tags": [
+    "ngọt",
+    "béo"
+   ]
+  },
+  {
+   "id": "choco",
+   "name": "Sô cô la sữa",
+   "desc": "Sô cô la bột pha với sữa.",
+   "tags": [
+    "ngọt",
+    "béo"
+   ]
+  },
+  {
+   "id": "sweetpotato",
+   "name": "Trà khoai lang sữa",
+   "desc": "Khoai lang nghiền pha với sữa.",
+   "tags": [
+    "ngọt",
+    "bùi"
+   ]
+  },
+  {
+   "id": "strawberry",
+   "name": "Sinh tố dâu tây",
+   "desc": "Dâu tây tươi xay với sữa chua.",
+   "tags": [
+    "ngọt",
+    "chua"
+   ]
+  },
+  {
+   "id": "lemonade",
+   "name": "Nước chanh soda (nước chanh có nước ga)",
+   "desc": "Chanh ngọt pha với nước có ga.",
+   "tags": [
+    "chua",
+    "mát"
+   ]
+  },
+  {
+   "id": "chamomile",
+   "name": "Trà hoa cúc (trà thảo mộc không cafein)",
+   "desc": "Trà hoa cúc, không có cafein.",
+   "tags": [
+    "thơm",
+    "nhẹ"
+   ]
+  },
+  {
+   "id": "yuja",
+   "name": "Trà quả yuzu (trà mật ong quả thơm)",
+   "desc": "Mứt yuzu pha với nước ấm.",
+   "tags": [
+    "thơm",
+    "ngọt"
+   ]
+  },
+  {
+   "id": "earlgrey",
+   "name": "Trà Earl Grey (trà đen có mùi cam)",
+   "desc": "Trà đen có mùi hoa cam thơm.",
+   "tags": [
+    "thơm",
+    "đắng"
+   ]
+  },
+  {
+   "id": "cheesecake",
+   "name": "Bánh phô mai New York",
+   "desc": "Bánh phô mai mềm, đặc và béo.",
+   "tags": [
+    "béo",
+    "ngọt"
+   ]
+  },
+  {
+   "id": "croissant",
+   "name": "Bánh sừng bò bơ",
+   "desc": "Bánh xốp có nhiều lớp bơ.",
+   "tags": [
+    "xốp",
+    "béo"
+   ]
+  },
+  {
+   "id": "saltbread",
+   "name": "Bánh mì muối bơ",
+   "desc": "Bánh bơ phủ muối mặn nhẹ.",
+   "tags": [
+    "mặn",
+    "béo"
+   ]
+  },
+  {
+   "id": "macaron",
+   "name": "Bánh macaron",
+   "desc": "Bánh nhỏ, vỏ giòn và nhân mềm.",
+   "tags": [
+    "ngọt",
+    "mềm"
+   ]
+  }
+ ],
+ "1-zh": [
+  {
+   "id": "americano",
+   "name": "美式咖啡 (加水的黑咖啡)",
+   "desc": "浓咖啡加水，味道清爽，偏苦。",
+   "tags": [
+    "苦",
+    "清爽",
+    "不加奶"
+   ]
+  },
+  {
+   "id": "decaf",
+   "name": "无咖啡因美式 (咖啡因少的咖啡)",
+   "desc": "咖啡因去掉了九成七，喝了不容易睡不着。",
+   "tags": [
+    "淡",
+    "少咖啡因",
+    "不加奶"
+   ]
+  },
+  {
+   "id": "latte",
+   "name": "拿铁 (加热牛奶的咖啡)",
+   "desc": "咖啡和热牛奶混在一起，喝起来很柔和。",
+   "tags": [
+    "香醇",
+    "柔和",
+    "加奶"
+   ]
+  },
+  {
+   "id": "vanilla",
+   "name": "香草拿铁 (带香草甜味的拿铁)",
+   "desc": "加了香草甜糖浆，喝起来甜甜香香的。",
+   "tags": [
+    "甜",
+    "香",
+    "加奶"
+   ]
+  },
+  {
+   "id": "coldbrew",
+   "name": "冷萃咖啡 (慢慢冷泡的咖啡)",
+   "desc": "用凉水泡十二小时，味道顺口，不太酸。",
+   "tags": [
+    "顺口",
+    "不酸",
+    "清爽"
+   ]
+  },
+  {
+   "id": "einspanner",
+   "name": "维也纳咖啡 (顶上有奶油的咖啡)",
+   "desc": "浓咖啡上面放了一层香滑的奶油。",
+   "tags": [
+    "浓",
+    "香滑",
+    "奶油"
+   ]
+  },
+  {
+   "id": "mocha",
+   "name": "摩卡咖啡 (加巧克力的咖啡)",
+   "desc": "咖啡里加了巧克力酱、热牛奶和奶油。",
+   "tags": [
+    "甜",
+    "巧克力",
+    "奶油"
+   ]
+  },
+  {
+   "id": "choco",
+   "name": "巧克力牛奶咖啡 (巧克力牛奶)",
+   "desc": "加了深色巧克力粉，又香又甜，像热巧克力。",
+   "tags": [
+    "甜",
+    "香",
+    "加奶"
+   ]
+  },
+  {
+   "id": "sweetpotato",
+   "name": "红薯拿铁 (红薯牛奶)",
+   "desc": "用红薯泥和牛奶做的，喝起来软软甜甜的。",
+   "tags": [
+    "甜",
+    "软",
+    "加奶"
+   ]
+  },
+  {
+   "id": "strawberry",
+   "name": "草莓冰沙 (打碎的草莓牛奶)",
+   "desc": "用新鲜草莓和酸奶打成的，喝起来酸酸甜甜。",
+   "tags": [
+    "甜",
+    "酸",
+    "冰凉"
+   ]
+  },
+  {
+   "id": "lemonade",
+   "name": "柠檬汽水 (柠檬蜂蜜水)",
+   "desc": "自己做的柠檬糖浆加上冒泡的水，喝了很爽口。",
+   "tags": [
+    "酸甜",
+    "冒泡",
+    "爽口"
+   ]
+  },
+  {
+   "id": "chamomile",
+   "name": "洋甘菊茶 (花草茶)",
+   "desc": "用不含咖啡因的花草茶包泡的，喝起来很温和。",
+   "tags": [
+    "清淡",
+    "花香",
+    "不含咖啡因"
+   ]
+  },
+  {
+   "id": "yuja",
+   "name": "柚子茶 (柚子蜜茶)",
+   "desc": "加了高兴产的柚子蜜，喝起来甜甜香香的。",
+   "tags": [
+    "甜",
+    "香",
+    "果味"
+   ]
+  },
+  {
+   "id": "earlgrey",
+   "name": "伯爵红茶 (带花香的红茶)",
+   "desc": "红茶里有佛手柑的香味，喝起来清香。",
+   "tags": [
+    "清香",
+    "淡雅",
+    "红茶"
+   ]
+  },
+  {
+   "id": "cheesecake",
+   "name": "纽约芝士蛋糕 (奶酪蛋糕)",
+   "desc": "用奶油奶酪做的，吃起来很绵密，很有嚼劲。",
+   "tags": [
+    "绵密",
+    "浓郁",
+    "甜"
+   ]
+  },
+  {
+   "id": "croissant",
+   "name": "黄油牛角包 (黄油酥面包)",
+   "desc": "用法国黄油一层一层卷起来，吃起来酥脆。",
+   "tags": [
+    "酥脆",
+    "香",
+    "黄油"
+   ]
+  },
+  {
+   "id": "saltbread",
+   "name": "咸面包 (撒了盐的黄油面包)",
+   "desc": "面包上撒了好黄油和海盐，咸咸香香的。",
+   "tags": [
+    "咸",
+    "香",
+    "松软"
+   ]
+  },
+  {
+   "id": "macaron",
+   "name": "马卡龙 (杏仁小饼)",
+   "desc": "杏仁饼中间夹着香滑的巧克力奶油。",
+   "tags": [
+    "甜",
+    "香滑",
+    "杏仁"
+   ]
+  }
+ ],
+ "2-zh": [
+  {
+   "id": "americano",
+   "name": "美式咖啡 (苦的黑咖啡)",
+   "desc": "苦苦的黑咖啡，加了水。",
+   "tags": [
+    "苦",
+    "黑咖啡",
+    "清爽"
+   ]
+  },
+  {
+   "id": "decaf",
+   "name": "无咖啡因美式 (咖啡因很少的咖啡)",
+   "desc": "咖啡因几乎都去掉了。",
+   "tags": [
+    "苦",
+    "少咖啡因",
+    "淡"
+   ]
+  },
+  {
+   "id": "latte",
+   "name": "拿铁 (牛奶咖啡)",
+   "desc": "咖啡和热牛奶，口感很软。",
+   "tags": [
+    "香",
+    "软",
+    "牛奶"
+   ]
+  },
+  {
+   "id": "vanilla",
+   "name": "香草拿铁 (香草味牛奶咖啡)",
+   "desc": "加了香草的甜糖浆。",
+   "tags": [
+    "甜",
+    "香草",
+    "软"
+   ]
+  },
+  {
+   "id": "coldbrew",
+   "name": "冷萃咖啡 (慢慢泡的冰咖啡)",
+   "desc": "用很久的时间慢慢泡出来。",
+   "tags": [
+    "不苦",
+    "顺口",
+    "淡"
+   ]
+  },
+  {
+   "id": "einspanner",
+   "name": "爱因斯潘纳 (上面有奶油的咖啡)",
+   "desc": "咖啡上面放了一层奶油。",
+   "tags": [
+    "浓",
+    "甜",
+    "奶油"
+   ]
+  },
+  {
+   "id": "mocha",
+   "name": "摩卡 (巧克力咖啡)",
+   "desc": "咖啡里有巧克力和奶油。",
+   "tags": [
+    "甜",
+    "巧克力",
+    "浓"
+   ]
+  },
+  {
+   "id": "choco",
+   "name": "巧克力牛奶",
+   "desc": "巧克力粉和牛奶做的饮料。",
+   "tags": [
+    "甜",
+    "巧克力",
+    "软"
+   ]
+  },
+  {
+   "id": "sweetpotato",
+   "name": "红薯牛奶",
+   "desc": "红薯泥和牛奶做的饮料。",
+   "tags": [
+    "甜",
+    "香",
+    "软"
+   ]
+  },
+  {
+   "id": "strawberry",
+   "name": "草莓奶昔",
+   "desc": "新鲜草莓和酸奶打成的饮料。",
+   "tags": [
+    "甜",
+    "酸",
+    "滑"
+   ]
+  },
+  {
+   "id": "lemonade",
+   "name": "柠檬汽水",
+   "desc": "自己做的柠檬酱，加了冒小泡的水。",
+   "tags": [
+    "酸",
+    "甜",
+    "冒泡"
+   ]
+  },
+  {
+   "id": "chamomile",
+   "name": "洋甘菊茶 (花香的茶)",
+   "desc": "花香的茶，不含咖啡因。",
+   "tags": [
+    "花香",
+    "淡",
+    "清爽"
+   ]
+  },
+  {
+   "id": "yuja",
+   "name": "柚子茶",
+   "desc": "用柚子酱做的甜茶。",
+   "tags": [
+    "甜",
+    "香",
+    "酸"
+   ]
+  },
+  {
+   "id": "earlgrey",
+   "name": "伯爵红茶 (带花香的红茶)",
+   "desc": "红茶里有淡淡的花香。",
+   "tags": [
+    "香",
+    "淡",
+    "涩"
+   ]
+  },
+  {
+   "id": "cheesecake",
+   "name": "纽约芝士蛋糕",
+   "desc": "奶酪做的蛋糕，很软很滑。",
+   "tags": [
+    "软",
+    "甜",
+    "奶香"
+   ]
+  },
+  {
+   "id": "croissant",
+   "name": "黄油可颂 (层层的面包)",
+   "desc": "一层一层的面包，有黄油香。",
+   "tags": [
+    "香",
+    "软",
+    "酥"
+   ]
+  },
+  {
+   "id": "saltbread",
+   "name": "咸黄油面包",
+   "desc": "黄油面包上面撒了盐。",
+   "tags": [
+    "咸",
+    "香",
+    "软"
+   ]
+  },
+  {
+   "id": "macaron",
+   "name": "马卡龙 (小小的圆饼干)",
+   "desc": "中间夹着甜甜的奶油。",
+   "tags": [
+    "甜",
+    "软",
+    "香"
+   ]
+  }
+ ],
+ "1-ja": [
+  {
+   "id": "americano",
+   "name": "アメリカーノ (お湯で薄めたコーヒー)",
+   "desc": "コーヒーに水を足した、さっぱりした黒い飲み物です",
+   "tags": [
+    "苦いです",
+    "さっぱり"
+   ]
+  },
+  {
+   "id": "decaf",
+   "name": "デカフェ・アメリカーノ (カフェインを減らしたコーヒー)",
+   "desc": "カフェインを97%減らしたコーヒー豆を使っています",
+   "tags": [
+    "やさしい",
+    "苦いです"
+   ]
+  },
+  {
+   "id": "latte",
+   "name": "カフェラテ (ミルクのコーヒー)",
+   "desc": "濃いコーヒーに、あたたかいミルクを合わせた飲み物です",
+   "tags": [
+    "まろやか",
+    "やさしい"
+   ]
+  },
+  {
+   "id": "vanilla",
+   "name": "バニララテ (バニラの香りのミルクコーヒー)",
+   "desc": "バニラの甘い香りのシロップを入れた人気のラテです",
+   "tags": [
+    "甘いです",
+    "香りがいい"
+   ]
+  },
+  {
+   "id": "coldbrew",
+   "name": "コールドブリュー (水でゆっくり淹れたコーヒー)",
+   "desc": "十二時間かけて水で淹れた、酸っぱさが少ないコーヒーです",
+   "tags": [
+    "すっきり",
+    "まろやか"
+   ]
+  },
+  {
+   "id": "einspanner",
+   "name": "アインシュペナー (クリームをのせたコーヒー)",
+   "desc": "濃いコーヒーの上に、やわらかいクリームをのせています",
+   "tags": [
+    "濃いです",
+    "あまいです"
+   ]
+  },
+  {
+   "id": "mocha",
+   "name": "カフェモカ (チョコ味のミルクコーヒー)",
+   "desc": "コーヒーに、チョコのソースとミルクとクリームを合わせました",
+   "tags": [
+    "甘いです",
+    "チョコ味"
+   ]
+  },
+  {
+   "id": "choco",
+   "name": "ココアラテ (チョコ味のミルク)",
+   "desc": "濃いチョコの粉と、ミルクで作った飲み物です",
+   "tags": [
+    "甘いです",
+    "濃いです"
+   ]
+  },
+  {
+   "id": "sweetpotato",
+   "name": "さつまいもラテ (さつまいものミルク)",
+   "desc": "国産のさつまいもをつぶして、ミルクと合わせました",
+   "tags": [
+    "甘いです",
+    "やさしい"
+   ]
+  },
+  {
+   "id": "strawberry",
+   "name": "いちごスムージー (いちごのジュース)",
+   "desc": "生のいちごと、とろっとした白いヨーグルトを混ぜました",
+   "tags": [
+    "甘酸っぱい",
+    "つめたい"
+   ]
+  },
+  {
+   "id": "lemonade",
+   "name": "レモンスカッシュ (レモンの甘い飲み物)",
+   "desc": "手作りのレモン漬けと、シュワシュワした水を合わせました",
+   "tags": [
+    "すっぱいです",
+    "シュワシュワ"
+   ]
+  },
+  {
+   "id": "chamomile",
+   "name": "カモミールティー (花の香りのお茶)",
+   "desc": "カフェインを含まない、花の香りのお茶です",
+   "tags": [
+    "花の香り",
+    "やさしい"
+   ]
+  },
+  {
+   "id": "yuja",
+   "name": "ゆずちゃ (ゆずの甘いお茶)",
+   "desc": "韓国の高興で作られた、ゆずの砂糖漬けを使ったお茶です",
+   "tags": [
+    "さわやか",
+    "甘いです"
+   ]
+  },
+  {
+   "id": "earlgrey",
+   "name": "アールグレイ (柑橘の香りの紅茶)",
+   "desc": "さわやかな柑橘の香りがする、黒い紅茶です",
+   "tags": [
+    "香りがいい",
+    "すっきり"
+   ]
+  },
+  {
+   "id": "cheesecake",
+   "name": "ニューヨークチーズケーキ (チーズのケーキ)",
+   "desc": "クリームチーズを使った、しっとり濃いケーキです",
+   "tags": [
+    "濃いです",
+    "しっとり"
+   ]
+  },
+  {
+   "id": "croissant",
+   "name": "バタークロワッサン (バターの香るパン)",
+   "desc": "バターの香りがする、サクサクした三日月の形のパンです",
+   "tags": [
+    "サクサク",
+    "バター味"
+   ]
+  },
+  {
+   "id": "saltbread",
+   "name": "塩パン (塩をのせたパン)",
+   "desc": "バターのパンに、やわらかい塩をのせて焼きました",
+   "tags": [
+    "しょっぱい",
+    "バター味"
+   ]
+  },
+  {
+   "id": "macaron",
+   "name": "マカロン (小さなお菓子)",
+   "desc": "アーモンドの生地に、なめらかなクリームをはさみました",
+   "tags": [
+    "あまいです",
+    "さくさく"
+   ]
+  }
+ ],
+ "2-ja": [
+  {
+   "id": "americano",
+   "name": "アメリカーノ (お湯で薄めたコーヒー)",
+   "desc": "コーヒーに水を足した、さっぱりした苦い飲み物です",
+   "tags": [
+    "にがい",
+    "さっぱり"
+   ]
+  },
+  {
+   "id": "decaf",
+   "name": "デカフェ・アメリカーノ (カフェインが少ないコーヒー)",
+   "desc": "カフェインをほとんど取った、やさしいコーヒーです",
+   "tags": [
+    "にがい",
+    "やさしい"
+   ]
+  },
+  {
+   "id": "latte",
+   "name": "カフェラテ (ミルクのコーヒー)",
+   "desc": "コーヒーと温かいミルクが、やわらかく混ざっています",
+   "tags": [
+    "やわらかい",
+    "まろやか"
+   ]
+  },
+  {
+   "id": "vanilla",
+   "name": "バニララテ (甘い花の香りのミルクコーヒー)",
+   "desc": "バニラの甘い香りがする、人気のミルクコーヒーです",
+   "tags": [
+    "あまい",
+    "いい香り"
+   ]
+  },
+  {
+   "id": "coldbrew",
+   "name": "コールドブリュー (水でゆっくり入れたコーヒー)",
+   "desc": "時間をかけて作った、にがさが少ないコーヒーです",
+   "tags": [
+    "すっきり",
+    "まろやか"
+   ]
+  },
+  {
+   "id": "einspanner",
+   "name": "アインシュペナー (クリームをのせたコーヒー)",
+   "desc": "濃いコーヒーの上に、あまい生クリームがのっています",
+   "tags": [
+    "こい",
+    "あまい"
+   ]
+  },
+  {
+   "id": "mocha",
+   "name": "カフェモカ (チョコ味のミルクコーヒー)",
+   "desc": "チョコのソースと、ミルクと、生クリームが入っています",
+   "tags": [
+    "あまい",
+    "チョコ"
+   ]
+  },
+  {
+   "id": "choco",
+   "name": "ココアラテ (チョコ味のミルク)",
+   "desc": "濃いチョコの粉と、ミルクで作った飲み物です",
+   "tags": [
+    "あまい",
+    "チョコ"
+   ]
+  },
+  {
+   "id": "sweetpotato",
+   "name": "さつまいもラテ (いものミルク)",
+   "desc": "国産のさつまいもを、やわらかくミルクで溶いています",
+   "tags": [
+    "あまい",
+    "やさしい"
+   ]
+  },
+  {
+   "id": "strawberry",
+   "name": "いちごスムージー (いちごのとろとろ飲み物)",
+   "desc": "生のいちごを、ヨーグルトと一緒に細かくまぜました",
+   "tags": [
+    "あまい",
+    "すっぱい"
+   ]
+  },
+  {
+   "id": "lemonade",
+   "name": "レモンエード (レモンの炭酸水)",
+   "desc": "手作りのレモンのはちみつ漬けを、シュワシュワの水で割りました",
+   "tags": [
+    "すっぱい",
+    "シュワシュワ"
+   ]
+  },
+  {
+   "id": "chamomile",
+   "name": "カモミール (花のお茶)",
+   "desc": "花の香りのする、カフェインのないお茶です",
+   "tags": [
+    "いい香り",
+    "やさしい"
+   ]
+  },
+  {
+   "id": "yuja",
+   "name": "ゆずちゃ (ゆずのお茶)",
+   "desc": "国産のゆずの砂糖漬けを、お湯で溶かしたお茶です",
+   "tags": [
+    "あまい",
+    "すっぱい"
+   ]
+  },
+  {
+   "id": "earlgrey",
+   "name": "アールグレイ (花の香りのこい紅茶)",
+   "desc": "ベルガモットという花の香りがする、紅茶です",
+   "tags": [
+    "いい香り",
+    "すっきり"
+   ]
+  },
+  {
+   "id": "cheesecake",
+   "name": "ニューヨークチーズケーキ (チーズのケーキ)",
+   "desc": "チーズのクリームで作った、もっちりしたケーキです",
+   "tags": [
+    "こい",
+    "あまい"
+   ]
+  },
+  {
+   "id": "croissant",
+   "name": "バタークロワッサン (バターのパン)",
+   "desc": "バターの香りがする、サクサクのパンです",
+   "tags": [
+    "サクサク",
+    "バター"
+   ]
+  },
+  {
+   "id": "saltbread",
+   "name": "塩パン (塩のせたパン)",
+   "desc": "いいバターと、きれいな塩をのせて焼いたパンです",
+   "tags": [
+    "しおあじ",
+    "バター"
+   ]
+  },
+  {
+   "id": "macaron",
+   "name": "マカロン (小さなあまいお菓子)",
+   "desc": "アーモンドの生地に、なめらかなチョコクリームをはさみました",
+   "tags": [
+    "あまい",
+    "サクサク"
+   ]
+  }
+ ]
+}

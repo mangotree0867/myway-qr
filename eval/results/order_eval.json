@@ -1,0 +1,868 @@
+{
+  "summary": {
+    "provider": "anthropic",
+    "model": "claude-haiku-5-5",
+    "n": 50,
+    "aiAcc": 0.98,
+    "ruleAcc": 0.56,
+    "aiAvgMs": 1285,
+    "at": "2026-10-27T12:02:35.088Z"
+  },
+  "rows": [
+    {
+      "u": "아메리카노 하나 주세요",
+      "expect": [
+        "americano/HOT/R/1"
+      ],
+      "ai": [
+        "americano/HOT/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "아메리카노 1잔(HOT, 레귤러)을 담았습니다. 아이스로 바꾸시려면 말씀해 주세요.",
+      "rule": [
+        "americano/HOT/R/1"
+      ],
+      "ruleOk": true,
+      "ms": 1152
+    },
+    {
+      "u": "아이스 아메리카노 두 잔이요",
+      "expect": [
+        "americano/ICE/R/2"
+      ],
+      "ai": [
+        "americano/ICE/R/2"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "아이스 아메리카노 2잔을 담았습니다.",
+      "rule": [
+        "americano/ICE/R/2"
+      ],
+      "ruleOk": true,
+      "ms": 915
+    },
+    {
+      "u": "차가운 아메리카노 한잔하고 치즈케이크 하나",
+      "expect": [
+        "americano/ICE/R/1",
+        "cheesecake/NONE/R/1"
+      ],
+      "ai": [
+        "americano/ICE/R/1",
+        "cheesecake/NONE/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "아이스 아메리카노 1잔과 뉴욕 치즈케이크 1개를 담았습니다.",
+      "rule": [
+        "americano/ICE/R/1",
+        "cheesecake/NONE/R/1"
+      ],
+      "ruleOk": true,
+      "ms": 1404
+    },
+    {
+      "u": "따뜻한 라떼 큰 걸로 하나",
+      "expect": [
+        "latte/HOT/L/1"
+      ],
+      "ai": [
+        "latte/HOT/L/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "따뜻한 카페라떼 큰 사이즈 1잔을 담았습니다.",
+      "rule": [
+        "latte/HOT/L/1"
+      ],
+      "ruleOk": true,
+      "ms": 1031
+    },
+    {
+      "u": "카페라떼 아이스로 라지 사이즈 1개",
+      "expect": [
+        "latte/ICE/L/1"
+      ],
+      "ai": [
+        "latte/ICE/L/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "카페라떼 아이스 라지 1개를 담았습니다.",
+      "rule": [
+        "latte/ICE/L/1"
+      ],
+      "ruleOk": true,
+      "ms": 1342
+    },
+    {
+      "u": "바닐라라떼 따뜻하게 두 개 주세요",
+      "expect": [
+        "vanilla/HOT/R/2"
+      ],
+      "ai": [
+        "vanilla/HOT/R/2"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "바닐라 라떼 따뜻한 것(HOT) 2잔을 담았습니다.",
+      "rule": [
+        "vanilla/HOT/R/2"
+      ],
+      "ruleOk": true,
+      "ms": 850
+    },
+    {
+      "u": "콜드브루 하나랑 소금빵 두 개",
+      "expect": [
+        "coldbrew/ICE/R/1",
+        "saltbread/NONE/R/2"
+      ],
+      "ai": [
+        "coldbrew/ICE/R/1",
+        "saltbread/NONE/R/2"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "콜드브루 1잔(아이스)과 소금빵 2개를 담았습니다.",
+      "rule": [
+        "coldbrew/ICE/R/1",
+        "saltbread/NONE/R/2"
+      ],
+      "ruleOk": true,
+      "ms": 1119
+    },
+    {
+      "u": "유자차 따뜻한 거 하나 주이소",
+      "expect": [
+        "yuja/HOT/R/1"
+      ],
+      "ai": [
+        "yuja/HOT/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "따뜻한 유자차 1잔을 담았습니다.",
+      "rule": [
+        "yuja/HOT/R/1"
+      ],
+      "ruleOk": true,
+      "ms": 794
+    },
+    {
+      "u": "커피 한 잔 줘요 뜨거운 걸로",
+      "expect": [
+        "americano/HOT/R/1"
+      ],
+      "ai": [
+        "americano/HOT/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "따뜻한 아메리카노 1잔을 담았습니다. 다른 커피를 원하시면 말씀해 주세요.",
+      "rule": [
+        "americano/HOT/R/1"
+      ],
+      "ruleOk": true,
+      "ms": 1515
+    },
+    {
+      "u": "블랙커피 차갑게 세 잔",
+      "expect": [
+        "americano/ICE/R/3"
+      ],
+      "ai": [
+        "americano/ICE/R/3"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "아이스 아메리카노 3잔을 담았습니다. 사이즈는 레귤러입니다.",
+      "rule": [
+        "americano/HOT/R/3"
+      ],
+      "ruleOk": false,
+      "ms": 1376
+    },
+    {
+      "u": "초코라떼 하나요 아 시원하게요",
+      "expect": [
+        "choco/ICE/R/1"
+      ],
+      "ai": [
+        "choco/ICE/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "초코라떼 아이스 1잔을 담았습니다.",
+      "rule": [
+        "latte/ICE/R/1"
+      ],
+      "ruleOk": false,
+      "ms": 1086
+    },
+    {
+      "u": "딸기 스무디 둘이랑 마카롱 하나",
+      "expect": [
+        "strawberry/ICE/R/2",
+        "macaron/NONE/R/1"
+      ],
+      "ai": [
+        "macaron/NONE/R/1",
+        "strawberry/ICE/R/2"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "딸기 스무디 2잔(ICE)과 마카롱 1개를 담았습니다.",
+      "rule": [
+        "macaron/NONE/R/1",
+        "strawberry/ICE/R/2"
+      ],
+      "ruleOk": true,
+      "ms": 1260
+    },
+    {
+      "u": "레몬에이드 한 잔",
+      "expect": [
+        "lemonade/ICE/R/1"
+      ],
+      "ai": [
+        "lemonade/ICE/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "레몬에이드 1잔을 아이스로 담았습니다.",
+      "rule": [
+        "lemonade/ICE/R/1"
+      ],
+      "ruleOk": true,
+      "ms": 989
+    },
+    {
+      "u": "고구마 라떼 따뜻하게 주세요",
+      "expect": [
+        "sweetpotato/HOT/R/1"
+      ],
+      "ai": [
+        "sweetpotato/HOT/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "따뜻한 고구마라떼 1잔을 담았습니다.",
+      "rule": [
+        "latte/HOT/R/3"
+      ],
+      "ruleOk": false,
+      "ms": 1060
+    },
+    {
+      "u": "디카페인으로 아메리카노 하나 아이스",
+      "expect": [
+        "decaf/ICE/R/1"
+      ],
+      "ai": [
+        "decaf/ICE/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "디카페인 아메리카노 아이스 1잔을 담았습니다.",
+      "rule": [
+        "decaf/ICE/R/1"
+      ],
+      "ruleOk": true,
+      "ms": 975
+    },
+    {
+      "u": "카페인 없는 커피 따뜻하게 하나",
+      "expect": [
+        "decaf/HOT/R/1"
+      ],
+      "ai": [
+        "decaf/HOT/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "따뜻한 디카페인 아메리카노 1잔을 담았습니다.",
+      "rule": [
+        "americano/HOT/R/1"
+      ],
+      "ruleOk": false,
+      "ms": 1113
+    },
+    {
+      "u": "크루아상 두 개만 주세요",
+      "expect": [
+        "croissant/NONE/R/2"
+      ],
+      "ai": [
+        "croissant/NONE/R/2"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "버터 크루아상 2개를 장바구니에 담았습니다.",
+      "rule": [
+        "croissant/NONE/R/2"
+      ],
+      "ruleOk": true,
+      "ms": 818
+    },
+    {
+      "u": "얼그레이 한 잔이랑 치즈 케이크",
+      "expect": [
+        "earlgrey/HOT/R/1",
+        "cheesecake/NONE/R/1"
+      ],
+      "ai": [
+        "cheesecake/NONE/R/1",
+        "earlgrey/HOT/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "얼그레이 따뜻한 것 1잔을 담았어요. 뉴욕 치즈케이크 1개도 담았어요.",
+      "rule": [
+        "cheesecake/NONE/R/1",
+        "earlgrey/HOT/R/1"
+      ],
+      "ruleOk": true,
+      "ms": 1111
+    },
+    {
+      "u": "카모마일 차 하나요",
+      "expect": [
+        "chamomile/HOT/R/1"
+      ],
+      "ai": [
+        "chamomile/HOT/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "캐모마일 따뜻한 것(HOT) 1잔을 담았습니다.",
+      "rule": [
+        "chamomile/HOT/R/1"
+      ],
+      "ruleOk": true,
+      "ms": 1683
+    },
+    {
+      "u": "아인슈페너 하나 주세요",
+      "expect": [
+        "einspanner/ICE/R/1"
+      ],
+      "ai": [
+        "einspanner/ICE/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "아인슈페너 아이스 레귤러 1잔을 담았습니다. 아인슈페너는 아이스로만 주문할 수 있습니다.",
+      "rule": [
+        "einspanner/ICE/R/1"
+      ],
+      "ruleOk": true,
+      "ms": 4506
+    },
+    {
+      "u": "모카 한잔 뜨겁게",
+      "expect": [
+        "mocha/HOT/R/1"
+      ],
+      "ai": [
+        "mocha/HOT/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "카페모카 따뜻한 것 1잔을 담았습니다.",
+      "rule": [
+        "mocha/HOT/R/1"
+      ],
+      "ruleOk": true,
+      "ms": 1054
+    },
+    {
+      "u": "아아 하나 뜨아 하나",
+      "expect": [
+        "americano/ICE/R/1",
+        "americano/HOT/R/1"
+      ],
+      "ai": [
+        "americano/HOT/R/1",
+        "americano/ICE/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "아이스 아메리카노 1잔과 따뜻한 아메리카노 1잔을 담았습니다.",
+      "rule": [],
+      "ruleOk": false,
+      "ms": 1128
+    },
+    {
+      "u": "아이스 아메 두 개 주세요",
+      "expect": [
+        "americano/ICE/R/2"
+      ],
+      "ai": [
+        "americano/ICE/R/2"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "아이스 아메리카노 2잔을 담았습니다.",
+      "rule": [],
+      "ruleOk": false,
+      "ms": 1219
+    },
+    {
+      "u": "아메리 카노 하나 주세요",
+      "expect": [
+        "americano/HOT/R/1"
+      ],
+      "ai": [
+        "americano/HOT/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "아메리카노 1잔(따뜻한 HOT, 레귤러)을 담았습니다.",
+      "rule": [],
+      "ruleOk": false,
+      "ms": 882
+    },
+    {
+      "u": "아이스 아메리카노 한 잔하고 따뜻한 카페라떼 한 잔",
+      "expect": [
+        "americano/ICE/R/1",
+        "latte/HOT/R/1"
+      ],
+      "ai": [
+        "americano/ICE/R/1",
+        "latte/HOT/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "아이스 아메리카노 1잔과 따뜻한 카페라떼 1잔을 담았습니다.",
+      "rule": [
+        "americano/ICE/R/1",
+        "latte/HOT/R/1"
+      ],
+      "ruleOk": true,
+      "ms": 1592
+    },
+    {
+      "u": "손주 줄 초코 우유 같은 거 하나",
+      "expect": [
+        "choco/HOT/R/1"
+      ],
+      "ai": [
+        "choco/HOT/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "초코라떼를 따뜻한 것으로 1잔 담았습니다. 차갑게 드릴까요?",
+      "rule": [
+        "choco/HOT/R/1"
+      ],
+      "ruleOk": true,
+      "ms": 1007
+    },
+    {
+      "u": "우유 들어간 커피 따뜻하게",
+      "expect": [
+        "latte/HOT/R/1"
+      ],
+      "ai": [
+        "latte/HOT/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "따뜻한 카페라떼 1잔을 담았어요.",
+      "rule": [
+        "americano/HOT/R/1"
+      ],
+      "ruleOk": false,
+      "ms": 1042
+    },
+    {
+      "u": "크림 올라간 커피 하나",
+      "expect": [
+        "einspanner/ICE/R/1"
+      ],
+      "ai": [
+        "americano/HOT/R/1"
+      ],
+      "aiOk": false,
+      "aiSource": "ai",
+      "reply": "커피는 기본 메뉴인 아메리카노(HOT, R) 1잔을 담았습니다. 크림 추가는 메뉴에 없어서 반영하지 못했어요.",
+      "rule": [
+        "americano/HOT/R/1"
+      ],
+      "ruleOk": false,
+      "ms": 2516
+    },
+    {
+      "u": "빵 하나 주세요 소금 들어간 거",
+      "expect": [
+        "saltbread/NONE/R/1"
+      ],
+      "ai": [
+        "saltbread/NONE/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "소금빵 1개를 담았습니다.",
+      "rule": [],
+      "ruleOk": false,
+      "ms": 1404
+    },
+    {
+      "u": "케이크 하나랑 따뜻한 차 하나",
+      "expect": [
+        "cheesecake/NONE/R/1",
+        "yuja/HOT/R/1"
+      ],
+      "ai": [
+        "cheesecake/NONE/R/1",
+        "yuja/HOT/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "뉴욕 치즈케이크 1개와 따뜻한 유자차(HOT) 1개를 담았습니다.",
+      "rule": [
+        "cheesecake/NONE/R/1",
+        "yuja/HOT/R/1"
+      ],
+      "ruleOk": true,
+      "ms": 1000
+    },
+    {
+      "u": "아메리카노 세 잔 중에 하나는 큰 걸로",
+      "expect": [
+        "americano/HOT/R/2",
+        "americano/HOT/L/1"
+      ],
+      "ai": [
+        "americano/HOT/L/1",
+        "americano/HOT/R/2"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "아메리카노 3잔을 담았습니다. 그중 1잔은 큰 사이즈(L), 2잔은 보통 사이즈(R)이고 모두 따뜻한(HOT) 음료입니다.",
+      "rule": [
+        "americano/HOT/L/3"
+      ],
+      "ruleOk": false,
+      "ms": 1197
+    },
+    {
+      "u": "라떼 둘 하나는 아이스 하나는 따뜻하게",
+      "expect": [
+        "latte/ICE/R/1",
+        "latte/HOT/R/1"
+      ],
+      "ai": [
+        "latte/HOT/R/1",
+        "latte/ICE/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "카페라떼 아이스 1잔과 따뜻한 카페라떼 1잔을 담았습니다.",
+      "rule": [
+        "latte/ICE/R/2"
+      ],
+      "ruleOk": false,
+      "ms": 1594
+    },
+    {
+      "u": "시원한 거 아무거나 달달한 거",
+      "expect": "되묻기",
+      "ai": "'달달한 거'에 해당하는 메뉴가 여러 가지라 골라 주세요. 아래 중에서 원하시는 것이 있을까요?\n1) 바닐라 라떼 (아이스)\n2) 초코라떼 (아이스)\n3) 딸기 스무디 (아이스)",
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "어떤 메뉴를 드릴지 조금 더 골라 주세요.",
+      "rule": [],
+      "ruleOk": true,
+      "ms": 1553
+    },
+    {
+      "u": "음 뭐가 맛있어요",
+      "expect": "되묻기",
+      "ai": "어떤 쪽이 좋으세요? 1) 달콤한 음료 (예: 바닐라 라떼, 초코라떼) 2) 커피 (예: 아메리카노, 카페라떼) 3) 간단한 빵 (예: 버터 크루아상, 소금빵)",
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "어떤 메뉴를 찾으시는지 알려 주시면 골라 드릴게요.",
+      "rule": [],
+      "ruleOk": true,
+      "ms": 2394
+    },
+    {
+      "u": "커피 말고 다른 거 마시고 싶은데",
+      "expect": "되묻기",
+      "ai": "어떤 음료로 드릴까요?\n1) 차 종류 (예: 유자차, 캐모마일, 얼그레이)\n2) 에이드나 스무디 (예: 레몬에이드, 딸기 스무디)\n3) 라떼류 (예: 초코라떼, 고구마라떼)",
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "커피 말고 어떤 음료를 원하시는지 골라 주세요.",
+      "rule": [
+        "americano/HOT/R/1"
+      ],
+      "ruleOk": false,
+      "ms": 1370
+    },
+    {
+      "u": "I'd like an iced americano please",
+      "expect": [
+        "americano/ICE/R/1"
+      ],
+      "ai": [
+        "americano/ICE/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "I added one iced Americano (regular size) to your cart.",
+      "rule": [],
+      "ruleOk": false,
+      "ms": 1614
+    },
+    {
+      "u": "one hot latte and a croissant",
+      "expect": [
+        "latte/HOT/R/1",
+        "croissant/NONE/R/1"
+      ],
+      "ai": [
+        "croissant/NONE/R/1",
+        "latte/HOT/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "Added 1 hot Caffè Latte and 1 Butter Croissant to your order.",
+      "rule": [],
+      "ruleOk": false,
+      "ms": 996
+    },
+    {
+      "u": "Cho tôi một cà phê đen đá",
+      "expect": [
+        "americano/ICE/R/1"
+      ],
+      "ai": [
+        "americano/ICE/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "Tôi đã thêm 1 Americano đá (ly thường) vào giỏ hàng.",
+      "rule": [],
+      "ruleOk": false,
+      "ms": 769
+    },
+    {
+      "u": "我要一杯热的美式咖啡",
+      "expect": [
+        "americano/HOT/R/1"
+      ],
+      "ai": [
+        "americano/HOT/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "已添加：热美式咖啡（Americano）1杯，常温大小为R。",
+      "rule": [],
+      "ruleOk": false,
+      "ms": 1105
+    },
+    {
+      "u": "アイスラテを二つください",
+      "expect": [
+        "latte/ICE/R/2"
+      ],
+      "ai": [
+        "latte/ICE/R/2"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "アイスカフェラテを2つ追加しました。",
+      "rule": [],
+      "ruleOk": false,
+      "ms": 731
+    },
+    {
+      "u": "따뜻한 유자차 하나랑 아이스 레몬에이드 두 잔이랑 마카롱 세 개",
+      "expect": [
+        "yuja/HOT/R/1",
+        "lemonade/ICE/R/2",
+        "macaron/NONE/R/3"
+      ],
+      "ai": [
+        "lemonade/ICE/R/2",
+        "macaron/NONE/R/3",
+        "yuja/HOT/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "따뜻한 유자차 1잔, 아이스 레몬에이드 2잔, 마카롱 3개를 담았습니다.",
+      "rule": [
+        "lemonade/ICE/R/2",
+        "macaron/NONE/R/3",
+        "yuja/HOT/R/1"
+      ],
+      "ruleOk": true,
+      "ms": 1565
+    },
+    {
+      "u": "바닐라 라떼 큰 거 아이스로 둘",
+      "expect": [
+        "vanilla/ICE/L/2"
+      ],
+      "ai": [
+        "vanilla/ICE/L/2"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "바닐라 라떼 아이스 큰 사이즈 2잔을 담았습니다.",
+      "rule": [
+        "vanilla/ICE/L/2"
+      ],
+      "ruleOk": true,
+      "ms": 948
+    },
+    {
+      "u": "아메리카노요 아니다 라떼로 바꿔 주세요",
+      "expect": [
+        "latte/HOT/R/1"
+      ],
+      "ai": [
+        "latte/HOT/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "아메리카노 대신 카페라떼(HOT, R) 1잔을 담았습니다.",
+      "rule": [
+        "americano/HOT/R/3"
+      ],
+      "ruleOk": false,
+      "ms": 894
+    },
+    {
+      "u": "그 치즈케이크 두 개 주시고요 아메리카노 차가운 거",
+      "expect": [
+        "cheesecake/NONE/R/2",
+        "americano/ICE/R/1"
+      ],
+      "ai": [
+        "americano/ICE/R/1",
+        "cheesecake/NONE/R/2"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "뉴욕 치즈케이크 2개와 아이스 아메리카노 1잔을 담았습니다.",
+      "rule": [
+        "americano/ICE/R/2"
+      ],
+      "ruleOk": false,
+      "ms": 1093
+    },
+    {
+      "u": "홍차 한 잔 주세요",
+      "expect": [
+        "earlgrey/HOT/R/1"
+      ],
+      "ai": [
+        "earlgrey/HOT/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "홍차 대신 얼그레이를 따뜻한 것(HOT)으로 1잔 담았습니다. 다른 음료를 원하시면 말씀해 주세요.",
+      "rule": [
+        "earlgrey/HOT/R/1"
+      ],
+      "ruleOk": true,
+      "ms": 1146
+    },
+    {
+      "u": "딸기 갈아 만든 거 하나",
+      "expect": [
+        "strawberry/ICE/R/1"
+      ],
+      "ai": [
+        "strawberry/ICE/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "딸기 스무디(ICE, 레귤러) 1개를 담았습니다.",
+      "rule": [
+        "strawberry/ICE/R/1"
+      ],
+      "ruleOk": true,
+      "ms": 1301
+    },
+    {
+      "u": "콜드브루 큰 사이즈 하나",
+      "expect": [
+        "coldbrew/ICE/L/1"
+      ],
+      "ai": [
+        "coldbrew/ICE/L/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "콜드브루 큰 사이즈(ICE) 1잔을 담았습니다.",
+      "rule": [
+        "coldbrew/ICE/L/1"
+      ],
+      "ruleOk": true,
+      "ms": 1907
+    },
+    {
+      "u": "따뜻한 초코 둘",
+      "expect": [
+        "choco/HOT/R/2"
+      ],
+      "ai": [
+        "choco/HOT/R/2"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "따뜻한 초코라떼 2잔을 담았습니다.",
+      "rule": [
+        "choco/HOT/R/1"
+      ],
+      "ruleOk": false,
+      "ms": 1012
+    },
+    {
+      "u": "레몬 음료 하나랑 크로와상",
+      "expect": [
+        "lemonade/ICE/R/1",
+        "croissant/NONE/R/1"
+      ],
+      "ai": [
+        "croissant/NONE/R/1",
+        "lemonade/ICE/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "레몬에이드 1잔(아이스)과 버터 크루아상 1개를 담았습니다.",
+      "rule": [
+        "croissant/NONE/R/1",
+        "lemonade/ICE/R/1"
+      ],
+      "ruleOk": true,
+      "ms": 950
+    },
+    {
+      "u": "커피 두 잔이요 하나는 차갑게",
+      "expect": [
+        "americano/ICE/R/1",
+        "americano/HOT/R/1"
+      ],
+      "ai": [
+        "americano/HOT/R/1",
+        "americano/ICE/R/1"
+      ],
+      "aiOk": true,
+      "aiSource": "ai",
+      "reply": "커피는 기본 메뉴인 아메리카노로 담았어요. 아이스 아메리카노 1잔, 따뜻한 아메리카노 1잔입니다.",
+      "rule": [
+        "americano/HOT/R/2"
+      ],
+      "ruleOk": false,
+      "ms": 1145
+    }
+  ]
+}

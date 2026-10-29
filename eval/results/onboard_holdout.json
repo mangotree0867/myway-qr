@@ -1,0 +1,205 @@
+{
+  "summary": {
+    "n": 10,
+    "acc": 1,
+    "at": "2026-10-27T12:19:34.552Z"
+  },
+  "rows": [
+    {
+      "u": "요즘 노안이 와서 작은 글씨를 못 읽겠어",
+      "expect": {
+        "fs": 3
+      },
+      "got": {
+        "fs": 3,
+        "hc": false,
+        "ez": 1,
+        "vo": true,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": []
+      },
+      "good": true
+    },
+    {
+      "u": "메뉴 이름이 다 외래어라서 뭐가 뭔지 몰라요",
+      "expect": {
+        "ez": 2,
+        "lg": "ko"
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 2,
+        "vo": true,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": []
+      },
+      "good": true
+    },
+    {
+      "u": "파킨슨병 때문에 손이 많이 떨려요",
+      "expect": {
+        "vi": true
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 1,
+        "vo": true,
+        "vi": true,
+        "lo": true,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": []
+      },
+      "good": true
+    },
+    {
+      "u": "전동 휠체어를 타고 다녀요",
+      "expect": {
+        "lo": true
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 1,
+        "vo": true,
+        "vi": false,
+        "lo": true,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": []
+      },
+      "good": true
+    },
+    {
+      "u": "보청기를 껴도 잘 안 들려요",
+      "expect": {
+        "vo": false
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 1,
+        "vo": false,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": []
+      },
+      "good": true
+    },
+    {
+      "u": "견과류를 먹으면 안 돼요",
+      "expect": {
+        "av": [
+          "nuts"
+        ]
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 1,
+        "vo": true,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": [
+          "nuts"
+        ]
+      },
+      "good": true
+    },
+    {
+      "u": "Tôi không đọc được tiếng Hàn",
+      "expect": {
+        "lg": "vi"
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 1,
+        "vo": true,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "vi",
+        "av": []
+      },
+      "good": true
+    },
+    {
+      "u": "Please make it English, I'm a tourist",
+      "expect": {
+        "lg": "en"
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 1,
+        "vo": true,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "en",
+        "av": []
+      },
+      "good": true
+    },
+    {
+      "u": "빨리 누르라고 재촉하는 게 너무 싫어요",
+      "expect": {
+        "nt": true
+      },
+      "got": {
+        "fs": 2,
+        "hc": false,
+        "ez": 1,
+        "vo": true,
+        "vi": false,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": []
+      },
+      "good": true
+    },
+    {
+      "u": "앞이 거의 안 보이는 시각장애인입니다",
+      "expect": {
+        "hc": true,
+        "vi": true
+      },
+      "got": {
+        "fs": 3,
+        "hc": true,
+        "ez": 1,
+        "vo": true,
+        "vi": true,
+        "lo": false,
+        "nt": true,
+        "sr": 0.9,
+        "lg": "ko",
+        "av": []
+      },
+      "good": true
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>
+*{box-sizing:border-box}html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:#0f1630;font-family:Pretendard,'Noto Sans CJK KR',sans-serif;color:#fff;word-break:keep-all}
+#cap{position:absolute;left:90px;top:0;bottom:0;width:720px;display:flex;flex-direction:column;justify-content:center;gap:22px;transition:opacity .4s}
+#step{display:inline-block;align-self:flex-start;background:#ffd43b;color:#111;font-weight:900;font-size:26px;padding:6px 16px;border-radius:999px}
+#title{font-size:62px;font-weight:900;line-height:1.18;letter-spacing:-.03em}
+#title em{font-style:normal;color:#7ea6ff}
+#sub{font-size:30px;line-height:1.5;color:#c9d3f2}
+#ai{display:none;align-self:flex-start;border:2px solid #7ea6ff;color:#cfe0ff;border-radius:14px;padding:10px 16px;font-size:24px;line-height:1.45;max-width:700px}
+#ai b{color:#7ea6ff}
+#dev{position:absolute;right:90px;top:0;bottom:0;width:980px;display:flex;align-items:center;justify-content:center;gap:50px;transition:opacity .4s}
+.kiosk{width:540px;height:960px;border-radius:24px;overflow:hidden;box-shadow:0 0 0 12px #000,0 30px 80px rgba(0,0,0,.6);background:#000;position:relative}
+.kiosk,.phone{transition:opacity .3s}.phone{width:400px;height:860px;border-radius:44px;overflow:hidden;box-shadow:0 0 0 12px #000,0 30px 80px rgba(0,0,0,.6);background:#fff;position:relative;transition:transform .9s ease}
+iframe{border:0;width:100%;height:100%;display:block;background:#fff}
+.hide{display:none!important}
+#card{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px;text-align:center;background:#0f1630;transition:opacity .5s;opacity:0;pointer-events:none}
+#card.on{opacity:1}
+#card h1{font-size:96px;margin:0;font-weight:900;letter-spacing:-.03em}
+#card h1 em{font-style:normal;color:#ffd43b}
+#card p{font-size:36px;margin:0;color:#c9d3f2;line-height:1.5}
+.stats{display:flex;gap:30px;margin-top:20px}
+.stat{background:#1b2550;border-radius:22px;padding:28px 34px;width:470px;text-align:left}
+.stat .n{font-size:84px;font-weight:900;color:#ffd43b;line-height:1}
+.stat .t{font-size:28px;margin-top:10px;line-height:1.4}
+.stat .s{font-size:18px;color:#8f9bc4;margin-top:8px}
+.tap{position:absolute;width:70px;height:70px;margin:-35px 0 0 -35px;border-radius:50%;border:6px solid #ffd43b;background:rgba(255,212,59,.25);pointer-events:none;z-index:99;animation:tap .7s ease-out forwards}
+@keyframes tap{0%{transform:scale(.4);opacity:1}100%{transform:scale(1.4);opacity:0}}
+#qrflash{position:absolute;inset:0;background:rgba(255,212,59,.0);pointer-events:none;transition:background .3s;z-index:90}
+#tag{position:absolute;left:90px;bottom:40px;font-size:20px;color:#8f9bc4}
+</style></head><body>
+<div id="cap"><span id="step"></span><div id="title"></div><div id="sub"></div><div id="ai"></div></div>
+<div id="dev">
+  <div class="kiosk" id="kioskBox"><iframe id="kiosk"></iframe></div>
+  <div class="phone hide" id="phoneBox"><iframe id="phone"></iframe></div>
+</div>
+<div id="card"></div>
+<div id="qrflash"></div>
+<div id="tag">내 방식 QR  |  2026 AI 라이프 솔루션 챌린지  |  myway-qr.vercel.app</div>
+<script>
+window.S={
+ cap(step,title,sub){document.getElementById('step').textContent=step;document.getElementById('step').style.display=step?'':'none';document.getElementById('title').innerHTML=title;document.getElementById('sub').innerHTML=sub||'';document.getElementById('ai').style.display='none'},
+ ai(html){const a=document.getElementById('ai');a.innerHTML=html;a.style.display='block'},
+ card(html){const c=document.getElementById('card');c.innerHTML=html;c.classList.add('on')},
+ uncard(){document.getElementById('card').classList.remove('on')},
+ show(k,p){document.getElementById('kioskBox').classList.toggle('hide',!k);document.getElementById('phoneBox').classList.toggle('hide',!p)},
+ tap(x,y){const d=document.createElement('div');d.className='tap';d.style.left=x+'px';d.style.top=y+'px';document.body.appendChild(d);setTimeout(()=>d.remove(),800)},
+ flash(){const f=document.getElementById('qrflash');f.style.background='rgba(255,212,59,.35)';setTimeout(()=>f.style.background='rgba(255,212,59,0)',350)},
+ move(dx){document.getElementById('phoneBox').style.transform=`translateX(${dx}px) rotate(${dx? -8:0}deg)`}
+};
+</script></body></html>

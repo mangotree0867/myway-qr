@@ -1,0 +1,11 @@
+1-ko 6893ms 22.8 9
+2-ko 5859ms 16.8 5
+1-en 6469ms  
+2-en 5021ms  
+1-vi 5750ms  
+2-vi 6338ms  
+1-zh 9376ms  
+2-zh 6070ms  
+1-ja 6698ms  
+2-ja 7346ms  
+original { avgLen: 18.8, jargon: 58 }

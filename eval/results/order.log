@@ -1,0 +1,10 @@
+...........................x......................
+ {
+  provider: 'anthropic',
+  model: 'claude-haiku-5-5',
+  n: 50,
+  aiAcc: 0.98,
+  ruleAcc: 0.56,
+  aiAvgMs: 1285,
+  at: '2026-10-27T12:02:35.088Z'
+}
